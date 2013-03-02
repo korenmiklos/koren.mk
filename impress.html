@@ -1,0 +1,249 @@
+<!doctype html>
+
+<!--
+
+    Welcome to the light side of the source, young padawan.
+
+    One step closer to learn something interesting you are...
+
+                               ____                  
+                            _.' :  `._               
+                        .-.'`.  ;   .'`.-.           
+               __      / : ___\ ;  /___ ; \      __  
+             ,'_ ""=-.:__;".-.";: :".-.":__;.-="" _`,
+             :' `.t""=-.. '<@.`;_  ',@:` ..-=""j.' `;
+                  `:-.._J '-.-'L__ `-.-' L_..-;'     
+                    "-.__ ;  .-"  "-.  : __.-"       
+                        L ' /.======.\ ' J           
+                         "-.   "__"   .-"            
+                        __.l"-:_JL_;-";.__           
+                     .-j/'.;  ;""""  / .'\"-.        
+                   .' /:`. "-.:     .-" .';  `.      
+                .-"  / ;  "-. "-..-" .-"  :    "-.   
+             .+"-.  : :      "-.__.-"      ;-._   \  
+             ; \  `.; ;                    : : "+. ; 
+             :  ;   ; ;                    : ;  : \: 
+             ;  :   ; :                    ;:   ;  : 
+            : \  ;  :  ;                  : ;  /  :: 
+            ;  ; :   ; :                  ;   :   ;: 
+            :  :  ;  :  ;                : :  ;  : ; 
+            ;\    :   ; :                ; ;     ; ; 
+            : `."-;   :  ;              :  ;    /  ; 
+             ;    -:   ; :              ;  : .-"   : 
+             :\     \  :  ;            : \.-"      : 
+              ;`.    \  ; :            ;.'_..-=  / ; 
+              :  "-.  "-:  ;          :/."      .'  :
+               \         \ :          ;/  __        :
+                \       .-`.\        /t-""  ":-+.   :
+                 `.  .-"    `l    __/ /`. :  ; ; \  ;
+                   \   .-" .-"-.-"  .' .'j \  /   ;/ 
+                    \ / .-"   /.     .'.' ;_:'    ;  
+                     :-""-.`./-.'     /    `.___.'   
+                           \ `t  ._  /               
+                            "-.t-._:'                
+
+-->
+
+<!--
+    
+    So you'd like to know how to use impress.js?
+    
+    You've made the first, very important step - you're reading the source code.
+    And that's how impress.js presentations are built - with HTML and CSS code.
+    
+    Believe me, you need quite decent HTML and CSS skills to be able to use impress.js effectively.
+    And what is even more important, you need to be a designer, too, because there are no default
+    styles for impress.js presentations, there is no default or automatic layout for them.
+    
+    You need to design and build it by hand.
+    
+    So...
+    
+    Would you still like to know how to use impress.js?
+    
+-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <!--
+        
+        Impress.js doesn't depend on any external stylesheet. Script adds all styles it needs for
+        presentation to work.
+        
+        This style below contains styles only for demo presentation. Browse it to see how impress.js
+        classes are used to style presentation steps, or how to apply fallback styles, but I don't want
+        you to use them directly in your presentation.
+        
+        Be creative, build your own. We don't really want all impress.js presentations to look the same,
+        do we?
+        
+        When creating your own presentation get rid of this file. Start from scratch, it's fun!
+        
+    -->
+    <link href="static/css/impress-demo.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="static/images/favicon.png" />
+    <link rel="apple-touch-icon" href="static/images/apple-touch-icon.png" />
+</head>
+
+<!--
+    
+    Body element is used by impress.js to set some useful class names, that will allow you to detect
+    the support and state of the presentation in CSS or other scripts.
+    
+    First very useful class name is `impress-not-supported`. This class means, that browser doesn't
+    support features required by impress.js, so you should apply some fallback styles in your CSS.
+    It's not necessary to add it manually on this element. If the script detects that browser is not
+    good enough it will add this class, but keeping it in HTML means that users without JavaScript
+    will also get fallback styles.
+    
+    When impress.js script detects that browser supports all required features, this class name will
+    be removed.
+    
+    The class name on body element also depends on currently active presentation step. More details about
+    it can be found later, when `hint` element is being described.
+    
+-->
+<body class="impress-not-supported">
+
+<!--
+    For example this fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+    
+    <div class="step slide" data-x="1000" data-y="0">
+        <h1>Lumpy Trade and the Welfare Effects of Administrative Barriers</h1>
+        <p>Using detailed U.S. and Spanish export data, we document that administrative trade costs of per shipment nature (documentation, customs clearance and  inspection) lead to less frequent and larger-sized shipments, i.e. more  lumpiness, in international trade. We build a model to analyze these effects  and their welfare consequences. Exporters decide not only how much to sell  at a given price, but also how to break up total trade into individual  shipments. Consumers value frequent shipments, because they enable them to  consume close to their preferred dates. Having fewer shipments hence entails  a welfare cost. Calibrating the model to observed shipping frequencies and  per-shipment costs, we show that countries would gain 2-3 percent of  their GDP by eliminating such barriers. This suggests that trade volumes  alone are insufficient to understand the gains from trade.
+</p>
+    </div>
+    
+    <div class="step slide" data-x="2000" data-y="0">
+        <h1>A Balls-and-Bins Model of Trade</h1>
+        <p>A number of stylized facts have been documented about the extensive margin of trade---which firms export, and how many products they send to how many destinations. We argue that the sparse nature of trade data is crucial to understanding these stylized facts. Typically the number of observations---that is, total shipments---is low relative to the number of possible classifications---e.g., countries and product codes. We propose a statistical model to account for the sparsity of trade data. We formalize the assignment of shipments to categories as balls falling into bins. The balls-and-bins model quantitatively reproduces the prevalence of zero product-level trade flows across export destinations. The model also accounts for firm-level facts: as in the data, most firms export a single product to a single country but these firms represent a tiny fraction of total exports. In contrast, the balls-and-bins model cannot reproduce the small fraction of exporters among U.S. firms. We discuss the implications for identifying the relevant model of the extensive margin in trade. 
+</p>
+    </div>
+    
+    <div class="step slide" data-x="3000" data-y="0">
+        <h1>Imported Inputs and Productivity</h1>
+        <p>We estimate a model of importers in Hungarian micro data and conduct counterfactual policy analysis to investigate the effect of imports on productivity. We find that importing all foreign varieties would increase firm productivity by 12 percent, almost two-fifths of which is due to imperfect substitution between foreign and domestic goods. The effectiveness of import use is higher for foreign firms and increases when a firm becomes foreign-owned. Our estimates imply that during 1993-2002 one-third of the productivity growth in Hungary was due to imported inputs. Simulations show that the productivity gain from a tariff cut is largest when the economy has many importers and many foreign firms, implying policy complementarities between tariff cuts, dismantling non-tariff barriers, and FDI liberalization.
+</p>
+    </div>
+    
+    <div class="step slide" data-x="4000" data-y="0">
+        <h1>Machines and machinists: Capital-skill complementarity from an international trade perspective
+</h1>
+        <p>We estimate the effect of imported machines on the wages of machine operators utilizing Hungarian linked employer-employee data. We infer exposure to imported machines from detailed trade statistics of the firm and the occupation description of the worker. We find that workers exposed to imported machines earn about 8 percent higher wages than other machine operators at the same firm. When we proxy for unobserved worker characteristics, we find a significant 3 percent wage premium, suggesting that the relationship is causal. The return to schooling is also higher on imported machines. We build a simple matching model consistent with these findings. Our findings suggest that machine imports can be an important channel through which skill-biased technical change reaches less developed and emerging economies.</p>
+    </div>
+    
+    <div class="step slide" data-x="5000" data-y="0">
+        <h1>Economies of Scale and the Size of Exporters</h1>
+        <p>Exporters are few---less than one fifth among U.S. manufacturing firms---and are larger than non-exporting firms---about 4-5 times more total sales per firm. These facts are often cited as support for models with economies of scale and firm heterogeneity as in Melitz (2003). We find that the basic Melitz model cannot simultaneously match the size and share of exporters given the observed distribution of total sales. Instead exporters are expected to be between 90 and 100 times larger than non-exporters. It is easy to reconcile the model with the data. However, a lot of variation independent of firm size is needed to do so. This suggests that economies of scale play only a minor role in determining the export status of a firm. We show that the augmented model also has markedly different implications in the event of a trade liberalization. Most of the adjustment is through the intensive margin; and productivity gains due to reallocation are halved.
+</p>
+    </div>
+    
+    <div class="step slide" data-x="6000" data-y="0">
+        <h1>A Spatial Explanation for the Balassa-Samuelson Effect</h1>
+        <p>We propose a simple spatial model to explain why the price level is higher in rich countries. There are two sectors: manufacturing, which is freely tradable, and non-tradable services, which have to locate near customers in big cities. As countries develop, total factor productivity increases simultaneously in both sectors. However, because services compete with the population for scarce land, labor productivity will grow slower in services than in manufacturing. Services become more expensive, and the aggregate price level becomes higher. The model hence provides a theoretical foundation for the Balassa--Samuelson assumption that productivity growth is slower in the non-tradable sector than in the tradable sector. Empirical results confirm two key implications of the theory. First, we compare countries where land is scarce (densely populated, highly urban countries) to rural countries. The Balassa--Samuelson effect is stronger among urban countries. Second, we compare sectors that locate at different distance to consumers. The Balassa--Samuelson effect is stronger within sectors that locate closer to consumers.
+</p>
+    </div>
+    
+
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+
+</div>
+
+<!--
+    
+    Hint is not related to impress.js in any way.
+    
+    But it can show you how to use impress.js features in creative way.
+    
+    When the presentation step is shown (selected) its element gets the class of "active" and the body element
+    gets the class based on active step id `impress-on-ID` (where ID is the step's id)... It may not be
+    so clear because of all these "ids" in previous sentence, so for example when the first step (the one with
+    the id of `bored`) is active, body element gets a class of `impress-on-bored`.
+    
+    This class is used by this hint below. Check CSS file to see how it's shown with delayed CSS animation when
+    the first step of presentation is visible for a couple of seconds.
+    
+    ...
+    
+    And when it comes to this piece of JavaScript below ... kids, don't do this at home ;)
+    It's just a quick and dirty workaround to get different hint text for touch devices.
+    In a real world it should be at least placed in separate JS file ... and the touch content should be
+    probably just hidden somewhere in HTML - not hard-coded in the script.
+    
+    Just sayin' ;)
+    
+-->
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<!--
+    
+    Last, but not least.
+    
+    To make all described above really work, you need to include impress.js in the page.
+    I strongly encourage to minify it first.
+    
+    In here I just include full source of the script to make it more readable.
+    
+    You also need to call a `impress().init()` function to initialize impress.js presentation.
+    And you should do it in the end of your document. Not only because it's a good practice, but also
+    because it should be done when the whole document is ready.
+    Of course you can wrap it in any kind of "DOM ready" event, but I was too lazy to do so ;)
+    
+-->
+<script src="static/js/impress.js"></script>
+<script>impress().init();</script>
+
+<!--
+    
+    The `impress()` function also gives you access to the API that controls the presentation.
+    
+    Just store the result of the call:
+    
+        var api = impress();
+    
+    and you will get three functions you can call:
+    
+        `api.init()` - initializes the presentation,
+        `api.next()` - moves to next step of the presentation,
+        `api.prev()` - moves to previous step of the presentation,
+        `api.goto( idx | id | element, [duration] )` - moves the presentation to the step given by its index number
+                id or the DOM element; second parameter can be used to define duration of the transition in ms,
+                but it's optional - if not provided default transition duration for the presentation will be used.
+    
+    You can also simply call `impress()` again to get the API, so `impress().next()` is also allowed.
+    Don't worry, it wont initialize the presentation again.
+    
+    For some example uses of this API check the last part of the source of impress.js where the API
+    is used in event handlers.
+    
+-->
+
+</body>
+</html>
