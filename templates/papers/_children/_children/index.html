@@ -1,0 +1,35 @@
+{% extends "base_templates/base.html" %}
+
+{% block title %}{{title}}{% endblock %}
+
+
+{% block content %}
+<article>
+	<h1 id>{{title}}</h2>
+	{% if author %}
+		<h3>{{author}}</h3>
+	{% endif %}
+
+	<h2>Abstract</h2>
+	<p>
+	{{abstract|rst}}
+	</p>
+{% if citaton %}
+<h2>Please cite as</h2>
+{% include "base_templates/citation.html" %}{% endif %}
+{% if resources %}
+<div id="article_meta">
+	<h2>Resources</h2>
+	<ol>
+		{% for tlk in resources %}
+			<li><a href="{{tlk.url}}">{{tlk.function}}</a></li>
+		{%endfor%}
+	</ol>
+</div>
+</article>
+{% endif %}
+
+{% endblock %}
+
+
+{% block option_papers %}class="active"{% endblock %}

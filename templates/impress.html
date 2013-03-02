@@ -1,0 +1,9 @@
+{% extends 'base_templates/impress_base.html' %}
+{% block content %}
+    {% for paper in PAPERS.working_papers %}
+    <div class="step slide" data-x="{{loop.index*1000}}" data-y="0">
+        <h1>{{paper.title}}</h1>
+        <p>{{paper.abstract}}</p>
+    </div>
+    {% endfor %}
+{% endblock %}
