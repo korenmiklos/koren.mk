@@ -73,6 +73,7 @@ Working papers:
         Abstract: >
             A number of stylized facts have been documented about the extensive margin of trade---which firms export, and how many products they send to how many destinations. We argue that the sparse nature of trade data is crucial to understanding these stylized facts. Typically the number of observations---that is, total shipments---is low relative to the number of possible classifications---e.g., countries and product codes. We propose a statistical model to account for the sparsity of trade data. We formalize the assignment of shipments to categories as balls falling into bins. The balls-and-bins model quantitatively reproduces the prevalence of zero product-level trade flows across export destinations. The model also accounts for firm-level facts: as in the data, most firms export a single product to a single country but these firms represent a tiny fraction of total exports. In contrast, the balls-and-bins model cannot reproduce the small fraction of exporters among U.S. firms. We discuss the implications for identifying the relevant model of the extensive margin in trade. 
         Date: 2012-03-28
+        note: Revise and resubmit at the *American Economic Review*.
         resources:
             -   URL: http://resources.cefig.eu/papers/balls_and_bins.pdf
                 Format: application/pdf
@@ -86,6 +87,7 @@ Working papers:
         Abstract: >
             We estimate a model of importers in Hungarian micro data and conduct counterfactual policy analysis to investigate the effect of imports on productivity. We find that importing all foreign varieties would increase firm productivity by 12 percent, almost two-fifths of which is due to imperfect substitution between foreign and domestic goods. The effectiveness of import use is higher for foreign firms and increases when a firm becomes foreign-owned. Our estimates imply that during 1993-2002 one-third of the productivity growth in Hungary was due to imported inputs. Simulations show that the productivity gain from a tariff cut is largest when the economy has many importers and many foreign firms, implying policy complementarities between tariff cuts, dismantling non-tariff barriers, and FDI liberalization.
         Date: 2011-09-16
+        note: Revise and resubmit at the *American Economic Review*.
         resources:
             -   URL: http://resources.cefig.eu/papers/imported_inputs_and_productivity.pdf
                 Format: application/pdf
@@ -96,6 +98,7 @@ Working papers:
             Machines and machinists: Capital-skill complementarity from an international trade perspective
         Abstract: We estimate the effect of imported machines on the wages of machine operators utilizing Hungarian linked employer-employee data. We infer exposure to imported machines from detailed trade statistics of the firm and the occupation description of the worker. We find that workers exposed to imported machines earn about 8 percent higher wages than other machine operators at the same firm. When we proxy for unobserved worker characteristics, we find a significant 3 percent wage premium, suggesting that the relationship is causal. The return to schooling is also higher on imported machines. We build a simple matching model consistent with these findings. Our findings suggest that machine imports can be an important channel through which skill-biased technical change reaches less developed and emerging economies.
         Date: 2011-03-25
+        note: Revise and resubmit at the *American Economic Review*.
         resources:
         -   URL: http://resources.cefig.eu/papers/machines_and_machinists.pdf
             Format: application/pdf

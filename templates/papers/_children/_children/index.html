@@ -10,13 +10,20 @@
 		<h3>{{author}}</h3>
 	{% endif %}
 
-	<h2>Abstract</h2>
+	<h4>Abstract</h4>
 	<p>
 	{{abstract|rst}}
 	</p>
-{% if citaton %}
-<h2>Please cite as</h2>
-{% include "base_templates/citation.html" %}{% endif %}
+	{% if note %}
+	<p>
+	{{note|rst}}
+	</p>
+	{% endif %}
+{% if citation %}
+{% set item = current_page %}
+<h4>Please cite as</h4>
+{% include "base_templates/citation.html" %}
+{% endif %}
 {% if resources %}
 <div id="article_meta">
 	<h2>Resources</h2>
