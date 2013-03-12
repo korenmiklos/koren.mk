@@ -1,6 +1,9 @@
 {% extends "base_templates/base.html" %}
 {% block title %}Curriculum Vitae{% endblock %}
 {% block content %}
+	<header>
+		<h1 class="title">Miklós Koren</h1>
+	</header>
 <article>
 	{% for item in [CV.office_contact_information, CV.personal_information]%}
 	<h1>{{item.get_verbose_name()}}</h1>
@@ -19,7 +22,12 @@
 	<h1>{{series.get_verbose_name()}}</h1>
 	<ol>
 		{% for item in series %}
-			<li>{{item.author}}. “{{item.title}}.” {{item.date}}</li>
+			<li>{% if "citation" in item %}
+				{% include "base_templates/citation.html" %}
+				{% else %}
+				{{item.author}}, {{item.date.get_data().split('-')[0]}}. “{{item.title}}.” {% if "note" in item %}{{item.note|rst}}{% endif %} 
+				{% endif %}
+			</li>
 		{% endfor %}
 	</ol>
 {% endfor %}

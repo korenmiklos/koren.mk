@@ -5,11 +5,13 @@
 
 {% block content %}
 <article>
-	<h1 id>{{title}}</h2>
+	<h1>{{title}}</h2>
 	{% if author %}
 		<h3>{{author}}</h3>
 	{% endif %}
-
+	{% if date %}
+		<p>{{date|monthyear}}</p>
+	{% endif %}
 	<h4>Abstract</h4>
 	<p>
 	{{abstract|rst}}
@@ -22,7 +24,7 @@
 {% if citation %}
 {% set item = current_page %}
 <h4>Please cite as</h4>
-{% include "base_templates/citation.html" %}
+<p>{% include "base_templates/citation.html" %} <a href="../{{id}}.bib">bib</a></p>
 {% endif %}
 {% if resources %}
 <div id="article_meta">

@@ -1,0 +1,9 @@
+@article{ {{item.id}},
+title="{{item.title}}",
+author="{{item.author}}",
+year={{item.citation.year}},
+journal="{{item.citation.journal}}",
+volume={{item.citation.volume}},
+{% if item.citation.number %}number="{{item.citation.number}}",{% endif %}
+{% if item.citation.pages %}pages="{{item.citation.pages}}"{% endif %}
+}

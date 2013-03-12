@@ -1,0 +1,11 @@
+{% if "citation" in current_page %}
+@article{ {{id}},
+    title="{{title}}",
+    author="{{author}}",
+    year={{citation.year}},
+    journal="{{citation.journal}}",
+    volume={{citation.volume}},
+    {% if citation.number %}number="{{citation.number}}",{% endif %}
+    {% if citation.pages %}pages="{{citation.pages}}"{% endif %}
+}
+{% endif %}
