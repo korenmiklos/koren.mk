@@ -5,19 +5,26 @@
 		<h1 class="title">Miklós Koren</h1>
 	</header>
 <article>
-	{% for item in [CV.office_contact_information, CV.personal_information]%}
+		<p id="hidden-link"><a href="javascript:window.print()">printable version</a></p>
+	{% for item in [CV.office_contact_information]%}
+	<h1>{{item.get_verbose_name()}}</h1>
+	<p>{{item.get_data()}}</p>
+	{% endfor %}
+	<h1>{{CV.current_positions.get_verbose_name()}}</h1>
+	{% for item in CV.current_positions %}
+	{{item|rst}}
+	{% endfor %}
+	{% for item in [ CV.personal_information, CV.research_and_teaching_interests]%}
 	<h1>{{item.get_verbose_name()}}</h1>
 	<p>{{item.get_data()}}</p>
 	{% endfor %}
 <h1>Education</h1>
-<ul>
 	{% for item in CV.education %}
-		<li>
+		<p>
 			<strong>{{item.school}}</strong>. {{item.from}}-{{item.to}}.
 			{{item.degree}}
-		</li>
+		</p>
 	{% endfor %}
-</ul>
 {% for series in PAPERS %}
 	<h1>{{series.get_verbose_name()}}</h1>
 	<ol>
@@ -31,5 +38,26 @@
 		{% endfor %}
 	</ol>
 {% endfor %}
+
+	{% for lst in [CV.teaching_experience, CV.research_experience, CV.honors_scholarships_and_Fellowships, CV.conference_organization]%}
+	<h1>{{lst.get_verbose_name()}}</h1>
+		{% for item in lst %}
+		<p>{{item.get_data()}}</p>
+		{% endfor %}
+	{% endfor %}
+
+<h1>Recent Conference and Seminar Presentations</h1>
+{% for year in ['2013', '2012', '2011', '2010'] %}
+<h2>{{year}}</h2>
+<p>{% for item in TALKS %}{% if item.date.get_data()[:4]==year %}{{item.organizer}}. {% endif %}{% endfor %}</p>
+{% endfor %}
+
+	{% for lst in [CV.grants, CV.professional_service, CV.referee]%}
+	<h1>{{lst.get_verbose_name()}}</h1>
+		{% for item in lst %}
+		<p>{{item.get_data()}}</p>
+		{% endfor %}
+	{% endfor %}
+
 </article>
 {% endblock %}
