@@ -100,7 +100,61 @@ Peer-reviewed publications:
         -   URL: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.195.8805&amp;rep=rep1&amp;type=pdf"
             Format: application/pdf
             Function: Full text (pdf)
+Other publications: 
+    -   id: EFIGE
+        author: "Gábor Békés, László Halpern, Miklós Koren and Balázs Muraközy"
+        Title: "Still standing: how European firms weathered the crisis - The third EFIGE policy report"
+        Abstract: >
+            This policy report asks how the Great Recession impacted European firms. There is a large amount of heterogeneity across countries and firms in the way they were affected by or responded to the crisis. We use the unique firm-level dataset compiled from the EFIGE Survey to uncover this heterogeneity. We find that exporters contracted more than non-exporters, while importers, those that outsource some of their production or have an affiliate suffered less of a decline. This raises an important policy trade-off. On the one hand, while export oriented strategies may improve competitiveness, they also bring about a greater exposure to foreign crisis. The flip side of the same trade-off is that outsourcing to other countries has distinct stabilisation benefits. Dominant firms centrally placed in the technology, trade and ownership network, fared better. Further, we find that firms relying on external finance and experiencing financial constraints to growth experienced a greater sales decline.
+        Date: 2011-12-22
+        resources:
+            -   URL: http://www.bruegel.org/publications/publication-detail/publication/661-still-standing-how-european-firms-weathered-the-crisis-the-third-efige-policy-report/
+                Format: text/html
+                Function: Link to Bruegel website
+    -   id: GCC
+        author: Miklós Koren and Silvana Tenreyro
+        Title: Volatility, diversification and development in the Gulf Cooperation Council countries
+        Abstract: >
+            This paper studies the evolution of volatility and its sources in the six Gulf Cooperation
+            Council (GCC) countries from 1970 to the present. We break down volatility into three
+            main components. The first component relates to the volatility caused by sector-specific
+            shocks (e.g. shocks to the oil sector). The second component relates to aggregate
+            country-specific shocks that affect all sectors in the economy (e.g. shocks due to policy
+            or political instability). The third component relates to the covariance between countryspecific
+            and sector-specific shocks (e.g. the degree of pro- or counter-cyclicality of
+            macroeconomic policy vis-à-vis sectoral shocks). We find that volatility has
+            significantly declined in the past four decades, in part due to a higher degree of sectoral
+            diversification in most GCC economies. There is, however, considerable scope for
+            progress, which could stem, for example, from more countercyclical fiscal and
+            monetary policies. Moreover, the global financial crisis has revealed financial-sector
+            vulnerabilities in some GCC countries that need to be addressed in order to limit future
+            economic disruptions.
+        Date: 2010-06-01
+        resources:
+        -   URL: http://www.lse.ac.uk/collections/LSEKP/documents/Tenreyro.pdf
+            Format: application/pdf
+            Function: Full text on LSE website
+        -   URL: http://goo.gl/0uuj9
+            Format: text/html
+            Function: Replication code and data
 Working papers:
+    -   id: bridges
+        author: "Roc Armenter, Miklós Koren and Dávid Krisztián Nagy"
+        title: Bridges
+        Date: 2013-05-02
+        abstract: >
+            We build a continuous-space theory of trade in which people in a region
+            agglomerate to exploit trading opportunities with another region. The
+            regions are separated by a river, which can be crossed anywhere, but more
+            cheaply at bridges. In the model, most trade takes place via bridges,
+            leading to a key prediction that population density declines with distance
+            to the bridge. We derive additional predictions about the spatial
+            distribution of population and test them on high-resolution population
+            density data around six major American rivers. The data are mostly
+            consistent with our model. More generally, our results suggest that
+            economies of density arising from transport infrastructure can help explain
+            why and where people agglomerate.
+        note: Work in progress.
     -   id: everything_all_the_time
         author: Roc Armenter and Miklós Koren
         title: Everything all the time? Entry and Exit in U.S. Import Varieties
