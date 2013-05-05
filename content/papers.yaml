@@ -154,7 +154,10 @@ Working papers:
             consistent with our model. More generally, our results suggest that
             economies of density arising from transport infrastructure can help explain
             why and where people agglomerate.
-        note: Work in progress.
+        resources:
+        -   URL: http://miklos.koren.hu/static/pdf/bridges.pdf
+            Format: application/pdf
+            Function: Full text
     -   id: everything_all_the_time
         author: Roc Armenter and Miklós Koren
         title: Everything all the time? Entry and Exit in U.S. Import Varieties
