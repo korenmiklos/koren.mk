@@ -6,6 +6,7 @@ copyright: >
 twitter: korenmiklos
 sitename: Miklós Koren's research website
 siteurl: "http://miklos.koren.hu"
+google_analytics: UA-2156294-1
 menuitems: 
     - name: working papers
       url: http://miklos.koren.hu/papers/working_papers
