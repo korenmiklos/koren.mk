@@ -53,9 +53,9 @@
 	{% block content %}
 	{% endblock %}
 	</section>
-{% if "google_analyitics" in META %}
-{% set google_analyitcs = META.google_analytics %}
-{% include "base_templates/citation.html" %}
+{% if "google_analytics" in META %}
+{% set google_analytics = META.google_analytics %}
+{% include "base_templates/google_analytics.html" %}
 {% endif %}
 </body>
 </html>
