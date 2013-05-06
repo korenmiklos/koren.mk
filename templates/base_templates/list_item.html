@@ -1,5 +1,5 @@
 			<li>
-				{{item.date|monthyear}}	
+				<p class="date">{{item.date|monthyear}}</p>	
 				<h3 class="title"><a href="{{item.get_relative_url(current_page)}}">{{item.title}}</a></h3>
 				{% if "note" in item %}<p>{{item.note|rst}}</p>{% endif %}
 				{% if "citation" in item %}<p>
