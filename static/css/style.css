@@ -286,6 +286,10 @@ section#posts p.paginator {
   width: 100%;
   border-top: #eeeeee 1px solid;
 }
+section#posts p.date {
+  margin: 0;
+  padding: 0;
+}
 section#posts article {
   margin: 0;
   padding: 40px 40px 40px 50px;
