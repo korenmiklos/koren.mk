@@ -111,6 +111,10 @@ Other publications:
             -   URL: http://www.bruegel.org/publications/publication-detail/publication/661-still-standing-how-european-firms-weathered-the-crisis-the-third-efige-policy-report/
                 Format: text/html
                 Function: Link to Bruegel website
+        note: >
+            Békés, Gábor, László Halpern, Miklós Koren and Balázs Muraközy. 2011. 
+            "Still standing: how European firms weathered the crisis - The third EFIGE policy report."
+            Bruegel Blueprint Series, Vol. XV.
     -   id: GCC
         author: Miklós Koren and Silvana Tenreyro
         Title: Volatility, diversification and development in the Gulf Cooperation Council countries
@@ -137,6 +141,11 @@ Other publications:
         -   URL: http://goo.gl/0uuj9
             Format: text/html
             Function: Replication code and data
+        note: >
+            Koren, Miklós and Silvana Tenreyro. 2011.
+            "Volatility, diversification and development in the Gulf Cooperation Council countries." 
+            In David Held and Kristian Ulrichsen (eds), *The Transformation of the Gulf: Politics, Economics and the Global Order*, Chapter 9, Routledge.
+
 Working papers:
     -   id: bridges
         author: "Roc Armenter, Miklós Koren and Dávid Krisztián Nagy"
@@ -154,6 +163,7 @@ Working papers:
             consistent with our model. More generally, our results suggest that
             economies of density arising from transport infrastructure can help explain
             why and where people agglomerate.
+        note: Work in progress.
         resources:
         -   URL: http://miklos.koren.hu/static/pdf/bridges.pdf
             Format: application/pdf
