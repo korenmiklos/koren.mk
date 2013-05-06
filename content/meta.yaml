@@ -8,8 +8,8 @@ sitename: Miklós Koren's research website
 siteurl: "http://miklos.koren.hu"
 menuitems: 
     - name: working papers
-      url: http://korenmiklos.github.io/miklos.koren.hu/papers/working_papers
+      url: http://miklos.koren.hu/papers/working_papers
     - name: publications
-      url: http://korenmiklos.github.io/miklos.koren.hu/papers/peer_reviewed_publications
+      url: http://miklos.koren.hu/papers/peer_reviewed_publications
     - name: policy
-      url: http://korenmiklos.github.io/miklos.koren.hu/papers/other_publications
+      url: http://miklos.koren.hu/papers/other_publications
