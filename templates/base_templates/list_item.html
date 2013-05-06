@@ -1,8 +1,10 @@
 			<li>
-				
+			<table><tr><td class="linenos">{{item.date|monthyear}}</td>
+			<td>	
 				<h3 class="title"><a href="{{item.get_relative_url(current_page)}}">{{item.title}}</a></h3>
-				<p>{{item.date|monthyear}}</p>
-				<p>{% if "note" in item %}{{item.note|rst}}{% endif %}</p>
-				<p>{% if "citation" in item %}
-					{% include "base_templates/citation.html" %}{% endif %}</p>
-			</li>
+				{% if "note" in item %}<p>{{item.note|rst}}</p>{% endif %}
+				{% if "citation" in item %}<p>
+					{% include "base_templates/citation.html" %}</p>{% endif %}
+			</td></tr>
+			</table>
+		</li>
