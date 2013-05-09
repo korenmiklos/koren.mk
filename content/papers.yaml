@@ -212,26 +212,6 @@ Working papers:
         -   URL: http://www.princeton.edu/~reddings/cure2012/Koren.pdf
             Format: application/pdf
             function: First draft
-    -   id: diversification_through_trade
-        title: Diversification through Trade
-        author: "Francesco Caselli, Miklós Koren, Milan Lisicky and Silvana Tenreyro"
-        date: 2011-01-01
-        note: Work in progress
-        abstract: >
-            Existing wisdom links increased openness to trade to greater macroeconomic volatility, as trade induces a country to specialize, increasing its exposure to sector-speciÖc
-            shocks. Evidence suggests, however, that country-wide shocks are at least as important
-            as sectoral shocks in shaping volatility patterns. We argue that if country-wide shocks
-            are dominant, the impact of trade on volatility can be negative, because trade becomes
-            a source of diversiÖcation. For example, trade allows domestic goods producers to respond to shocks to the domestic supply chain by shifting sourcing abroad. Similarly,
-            when a country has multiple trading partners, a domestic recession or a recession in
-            any one of the trading partners translates into a smaller demand shock for its producers
-            than when trade is more limited. Using a calibrated version of the Eaton-Kortum and
-            Alvarez-Lucas model, we quantitatively assess the impact of lower trade barriers on
-            volatility since the 1970s in a broad group of countries.
-        resources:
-            -   URL: http://personal.lse.ac.uk/casellif/papers/volatilitytrade.pdf
-                Format: application/pdf
-                Function: Full text
     -   id: balls_and_bins
         author: Roc Armenter and Miklós Koren
         Title: A Balls-and-Bins Model of Trade
@@ -268,6 +248,26 @@ Working papers:
         -   URL: http://resources.cefig.eu/papers/machines_and_machinists.pdf
             Format: application/pdf
             Function: Full text
+    -   id: diversification_through_trade
+        title: Diversification through Trade
+        author: "Francesco Caselli, Miklós Koren, Milan Lisicky and Silvana Tenreyro"
+        date: 2011-01-01
+        note: Work in progress
+        abstract: >
+            Existing wisdom links increased openness to trade to greater macroeconomic volatility, as trade induces a country to specialize, increasing its exposure to sector-speciÖc
+            shocks. Evidence suggests, however, that country-wide shocks are at least as important
+            as sectoral shocks in shaping volatility patterns. We argue that if country-wide shocks
+            are dominant, the impact of trade on volatility can be negative, because trade becomes
+            a source of diversiÖcation. For example, trade allows domestic goods producers to respond to shocks to the domestic supply chain by shifting sourcing abroad. Similarly,
+            when a country has multiple trading partners, a domestic recession or a recession in
+            any one of the trading partners translates into a smaller demand shock for its producers
+            than when trade is more limited. Using a calibrated version of the Eaton-Kortum and
+            Alvarez-Lucas model, we quantitatively assess the impact of lower trade barriers on
+            volatility since the 1970s in a broad group of countries.
+        resources:
+            -   URL: http://personal.lse.ac.uk/casellif/papers/volatilitytrade.pdf
+                Format: application/pdf
+                Function: Full text
     -   id: xandnox
         author: Roc Armenter and Miklós Koren
         Title: Economies of Scale and the Size of Exporters
