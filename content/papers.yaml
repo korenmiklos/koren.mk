@@ -101,6 +101,17 @@ Peer-reviewed publications:
             Format: application/pdf
             Function: Full text (pdf)
 Other publications: 
+    -   id: munkaeropiaci_tukor
+        author: Miklós Koren and Péter Tóth
+        title: The impact of international trade on employment and wages
+        note: >
+            In: Fazekas K, Benczúr P, Telegdy Á (eds.) The Hungarian labour market, 2013. 
+            Budapest: Centre for Economic and Regional Studies, Hungarian Academy of Sciences; National Employment Non-profit Public Company, 2013. pp. 246-272.
+        date: 2013-05-01
+        resources:
+            -   URL: http://econ.core.hu/file/download/HLM2013/TheHungarianLabourMarket_2013_InFocusII.pdf
+                Format: application/pdf
+                Function: Full text
     -   id: EFIGE
         author: "Gábor Békés, László Halpern, Miklós Koren and Balázs Muraközy"
         Title: "Still standing: how European firms weathered the crisis - The third EFIGE policy report"
