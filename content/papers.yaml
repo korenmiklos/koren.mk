@@ -1,4 +1,15 @@
 Peer-reviewed publications: 
+    -   id: administrative_barriers_to_trade
+        author: Cecília Hornok and Miklós Koren
+        Title: Per-Shipment Costs and the Lumpiness of International Trade
+        Abstract: >
+            Using detailed U.S. and Spanish export data, we document that trade costs of a per-shipment nature are associated with less frequent and larger shipments, i.e. more lumpiness, in international trade. This finding is pervasive across broad product categories, but most apparent for food products, industrial supplies and parts and accessories.
+        Date: 2013-11-19
+        note: Accepted for publication at the *Review of Economics and Statistics*.
+        resources:
+            -   URL: https://www.dropbox.com/s/t4eismtcy1eex4j/note.pdf
+                Format: application/pdf
+                Function: Working paper version
     -   id: balls_and_bins
         author: Roc Armenter and Miklós Koren
         Title: A Balls-and-Bins Model of Trade
@@ -224,7 +235,6 @@ Working papers:
             their GDP by eliminating such barriers. This suggests that trade volumes 
             alone are insufficient to understand the gains from trade.
         Date: 2012-10-27
-        note: Revise and resubmit at the *Review of Economics and Statistics*.
         resources:
             -   URL: http://resources.cefig.eu/papers/administrative_barriers_to_trade.pdf
                 Format: application/pdf
