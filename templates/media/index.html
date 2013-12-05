@@ -1,0 +1,38 @@
+{% extends "base_templates/base.html" %}
+
+{% block title %}Media appearance{% endblock %}
+
+{% block content %}
+	<header>
+		<h1 class="title">Media appearance</h1>
+	</header>
+		<dl>
+		<ol>
+			<h2>
+				Op-eds
+			</h2>
+		{% for item in current_page|filter('type=op-ed') %}
+		{% include "base_templates/mediamention.html" %}
+		{% endfor %}
+	</ol></dl>
+		<dl>
+		<ol>
+			<h2>
+				Interviews
+			</h2>
+		{% for item in current_page|filter('type=interview') %}
+		{% include "base_templates/mediamention.html" %}
+		{% endfor %}
+	</ol></dl>
+		<dl>
+		<ol>
+			<h2>
+				Coverage
+			</h2>
+		{% for item in current_page|filter('type=coverage') %}
+		{% include "base_templates/mediamention.html" %}
+		{% endfor %}
+	</ol></dl>
+{% endblock %}
+
+
