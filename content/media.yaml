@@ -9,6 +9,11 @@
     type: interview
     medium: online
     channel: Eltecon blog
+-   URL: http://index.hu/gazdasag/blog/2012/10/03/euromilliokat_kaptak_ceu-s_kutatok/
+    type: coverage
+    channel: online
+    medium: coverage
+    date: 2012-10-03
 -   show: ATV Start Plusz
     date: 2012-10-08
     channel: ATV
@@ -47,6 +52,11 @@
     type: coverage
     medium: online
     channel: privátbankár
+-   URL: http://index.hu/gazdasag/2013/09/18/importbol_is_lehet_novekedes/
+    date: 2013-09-18
+    type: coverage
+    channel: online
+    medium: index.hu
 -   URL: http://miklos.koren.hu/static/pdf/forbes-magyarazo.pdf
     date: 2013-12-05
     type: interview
@@ -58,3 +68,20 @@
     medium: online
     title: Így lesz szexi a közgazdaságtan
     channel: Forbes blog
+-   URL: http://index.hu/gazdasag/2014/02/03/multik/
+    type: coverage
+    date: 2014-02-03
+    channel: index.hu
+    medium: online
+    title: Sokat köszönhetünk a multiknak
+-   channel: Forbes
+    type: op-ed
+    title: Hozott szalonnával
+    date: 2014-03-01
+    medium: print
+    URL: 
+-   URL: http://www.portfolio.hu/gazdasag/jobban_elunk_mint_negy_ev_mulva.1.196615.html
+    type: op-ed
+    date: 2014-03-19
+    channel: portfolio.hu
+    medium: online
