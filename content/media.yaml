@@ -74,6 +74,12 @@
     channel: index.hu
     medium: online
     title: Sokat köszönhetünk a multiknak
+-   URL: http://index.hu/gazdasag/defacto/2014/02/18/defacto1/
+    type: op-ed
+    date: 2014-02-18
+    channel: index.hu
+    medium: online
+    title: "Miért cserélik le a vezetők negyedét?"
 -   channel: Forbes
     type: op-ed
     title: Hozott szalonnával
@@ -86,3 +92,20 @@
     channel: portfolio.hu
     medium: online
     title: "Jobban élünk, mint négy év múlva"
+-   URL: http://index.hu/gazdasag/defacto/2014/03/24/defacto_kozbeszerzes/
+    type: op-ed
+    date: 2014-03-24
+    channel: index.hu
+    medium: online
+    title: "Bebizonyítjuk a közbeszerzési mutyit"
+-   URL: http://index.hu/gazdasag/defacto/2014/03/31/amiben_a_regionknal_es_az_eu-nal_is_jobbak_vagyunk/
+    type: op-ed
+    date: 2014-03-31
+    channel: index.hu
+    medium: online
+    title: "Amiben a régiónknál és az EU-nál is jobbak vagyunk"
+-   medium: radio
+    channel: Tilos Rádió
+    type: interview
+    date: 2014-04-03
+    URL: https://www.facebook.com/kovacs.adam.hangpostaja
