@@ -5,29 +5,31 @@ Peer-reviewed publications:
         Abstract: >
             Exporters are few---less than one fifth among U.S. manufacturing firms---and are larger than non-exporting firms---about 4-5 times more total sales per firm. These facts are often cited as support for models with economies of scale and firm heterogeneity as in Melitz (2003). We find that the basic Melitz model cannot simultaneously match the size and share of exporters given the observed distribution of total sales. Instead exporters are expected to be between 90 and 100 times larger than non-exporters. It is easy to reconcile the model with the data. However, a lot of variation independent of firm size is needed to do so. This suggests that economies of scale play only a minor role in determining the export status of a firm. We show that the augmented model also has markedly different implications in the event of a trade liberalization. Most of the adjustment is through the intensive margin; and productivity gains due to reallocation are halved.
         Date: 2014-05-27
-        note: Accepted for publication at the *Journal of the European Economic Association*.
+        note: Forthcoming in the *Journal of the European Economic Association*.
         resources:
             -   URL: http://resources.cefig.eu/papers/exporter_size.pdf
                 Format: application/pdf
                 Function: Full text
+        impact_factor: 2.05
     -   id: administrative_barriers_to_trade
         author: Cecília Hornok and Miklós Koren
         Title: Per-Shipment Costs and the Lumpiness of International Trade
         Abstract: >
             Using detailed U.S. and Spanish export data, we document that trade costs of a per-shipment nature are associated with less frequent and larger shipments, i.e. more lumpiness, in international trade. This finding is pervasive across broad product categories, but most apparent for food products, industrial supplies and parts and accessories.
         Date: 2013-11-19
-        note: Accepted for publication at the *Review of Economics and Statistics*.
+        note: Forthcoming in the *Review of Economics and Statistics*.
         resources:
-            -   URL: https://www.dropbox.com/s/t4eismtcy1eex4j/note.pdf
+            -   URL: http://miklos.koren.hu/static/pdf/per_shipment_costs/note.pdf
                 Format: application/pdf
                 Function: Working paper version
+        impact_factor: 2.35
     -   id: balls_and_bins
         author: Roc Armenter and Miklós Koren
         Title: A Balls-and-Bins Model of Trade
         Abstract: >
             Many of the facts about the extensive margin of trade---which firms export, and how many products sent to how many destinations---are consistent with a surprisingly large class of trade models because of the sparse nature of trade data. We propose a statistical model to account for sparsity, formalizing the assignment of trade shipments to country, product and firm categories as balls falling into bins. The balls-and-bins model quantitatively reproduces the pattern of zero product- and firm-level trade flows across export destinations, and the frequency of multi-product, multi-destination exporters. In contrast, balls-and-bins overpredicts the fraction of exporting firms. 
         Date: 2013-10-15
-        note: Accepted for publication at the *American Economic Review*.
+        note: Forthcoming in the *American Economic Review*.
         resources:
             -   URL: http://miklos.koren.hu/static/pdf/balls_and_bins/manuscript.pdf
                 Format: application/pdf
@@ -35,9 +37,10 @@ Peer-reviewed publications:
             -   URL: http://miklos.koren.hu/static/pdf/balls_and_bins/appendix.pdf
                 Format: application/pdf
                 Function: Online appendix
-            -   URL: https://www.dropbox.com/s/emyppq1ew92r7mn/AER-MS-20101454-replication.zip
+            -   URL: http://miklos.koren.hu/static/pdf/balls_and_bins/AER-MS-20101454-replication.zip
                 Format: application/zip
                 Function: Replication data and code
+        impact_factor: 2.79
     -   id: technological_diversification
         author: Miklós Koren and Silvana Tenreyro
         Title: Technological Diversification
@@ -55,18 +58,16 @@ Peer-reviewed publications:
                 id: 10.1257/aer.103.1.378
                 url: http://www.aeaweb.org/articles.php?doi=10.1257/aer.103.1.378
         resources:
-            -   URL: http://resources.cefig.eu/papers/technological_diversification.pdf
+            -   URL: http://miklos.koren.hu/static/pdf/technological_diversification/aer.103.1.378.pdf
                 Format: application/pdf
-                Function: Latest working paper version
+                Function: Artile
             -   URL: http://resources.cefig.eu/papers/techdiv_online_appendix.pdf
                 Format: application/pdf
                 Function: Online appendix
             -   URL: http://goo.gl/TkX3W
                 Format: text/html
                 Function: Replication data on github
-            -   URL: http://goo.gl/TeoXe
-                Format: text/html
-                Function: Publisher's website
+        impact_factor: 2.79
     -   id: pricing_to_firm
         Author: László Halpern and Miklós Koren
         Title: "Pricing to Firm: An Analysis of Firm- and Product-Level Import Prices"
@@ -83,7 +84,12 @@ Peer-reviewed publications:
             -   type: DOI
                 id: 10.1111/j.1467-9396.2007.00668.x
                 url: http://onlinelibrary.wiley.com/doi/10.1111/j.1467-9396.2007.00668.x/abstract
+        resources:
+            -   URL: http://onlinelibrary.wiley.com/doi/10.1111/j.1467-9396.2007.00668.x/abstract
+                Format: text/html
+                Function: Publisher's website
         Date: 2007-08-01
+        impact_factor: 0.71
     -   id: volatility_and_development
         Author: Miklós Koren and Silvana Tenreyro
         Title: Volatility and Development
@@ -114,6 +120,7 @@ Peer-reviewed publications:
         -   URL: http://resources.cefig.eu/replication/voldev/
             Format: text/html
             Function: Replication data (you can also download it with subversion)
+        impact_factor: 5.28
     -   id: employment
         Author: Miklós Koren
         Title: "Employment Response to Real Exchange Rate Movements: Evidence from Hungarian Exporting Firms"
