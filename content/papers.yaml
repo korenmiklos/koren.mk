@@ -213,10 +213,20 @@ Other publications:
             In David Held and Kristian Ulrichsen (eds), *The Transformation of the Gulf: Politics, Economics and the Global Order*, Chapter 9, Routledge.
 
 Working papers:
+    -   id: administrative_barriers_to_trade
+        author: Cecília Hornok and Miklós Koren
+        Title: Administrative Barriers to Trade
+        Abstract: >
+            We build a model of administrative barriers to trade to understand how they affect trade volumes, shipping decisions and welfare. Because administrative costs are incurred with every shipment, exporters have to decide how to break up total trade into individual shipments. Consumers value frequent shipments, because they enable them to consume close to their preferred dates. Hence per-shipment costs create a welfare loss. We derive a gravity equation in our model and show that administrative costs can be expressed as bilateral ad-valorem trade costs. We estimate the ad-valorem equivalent in Spanish shipment-level export data and find it to be large. A 50 percent reduction in per-shipment costs is equivalent to a 9 percentage point reduction in tariffs. Our model and estimates help explain why policy makers emphasize trade facilitation and why trade within customs unions is larger than trade within free trade areas.
+        Date: 2014-08-22
+        resources:
+            -   URL: /static/pdf/administrative_barriers_to_trade.pdf
+                Format: application/pdf
+                Function: Full text (pdf)
     -   id: bridges
         author: "Roc Armenter, Miklós Koren and Dávid Krisztián Nagy"
         title: Bridges
-        Date: 2013-05-02
+        Date: 2014-07-23
         abstract: >
             We build a continuous-space theory of trade in which people in a region
             agglomerate to exploit trading opportunities with another region. The
@@ -224,10 +234,10 @@ Working papers:
             cheaply at bridges. In the model, most trade takes place via bridges,
             leading to a key prediction that population density declines with distance
             to the bridge. We derive additional predictions about the spatial
-            distribution of population and test them on high-resolution population
-            density data around six major American rivers. The data are mostly
-            consistent with our model. More generally, our results suggest that
-            economies of density arising from transport infrastructure can help explain
+            distribution of population and test them on current high-resolution population
+            density data around twelve major American rivers. The data is mostly
+            consistent with our model. In a historical event study of 19th-century bridges on these rivers, we find that the neighborhood of bridges developed faster after the bridge was built. Also, the two sides of the bridge converged in development, highlighting the connecting role of the bridge.
+            More generally, our results suggest that economies of density arising from transport infrastructure can help explain
             why and where people agglomerate.
         note: Work in progress.
         resources:
@@ -245,16 +255,6 @@ Working papers:
         -   URL: http://econ.la.psu.edu/papers/Armenter040113.pdf
             Format: application/pdf
             function: First draft
-    -   id: administrative_barriers_to_trade
-        author: Cecília Hornok and Miklós Koren
-        Title: Administrative Barriers to Trade
-        Abstract: >
-            We build a model of administrative barriers to trade to understand how they affect trade volumes, shipping decisions and welfare. Because administrative costs are incurred with every shipment, exporters have to decide how to break up total trade into individual shipments. Consumers value frequent shipments, because they enable them to consume close to their preferred dates. Hence per-shipment costs create a welfare loss. We derive a gravity equation in our model and show that administrative costs can be expressed as bilateral ad-valorem trade costs. We estimate the ad-valorem equivalent in Spanish shipment-level export data and find it to be large. A 50 percent reduction in per-shipment costs is equivalent to a 9 percentage point reduction in tariffs. Our model and estimates help explain why policy makers emphasize trade facilitation and why trade within customs unions is larger than trade within free trade areas.
-        Date: 2014-08-22
-        resources:
-            -   URL: /static/pdf/administrative_barriers_to_trade.pdf
-                Format: application/pdf
-                Function: Full text (pdf)
     -   id: cattle
         author: Péter Karádi and Miklós Koren
         title: "Cattle, Steaks and Restaurants: Development Accounting when Space Matters"
@@ -298,7 +298,7 @@ Working papers:
             shocks. Evidence suggests, however, that country-wide shocks are at least as important
             as sectoral shocks in shaping volatility patterns. We argue that if country-wide shocks
             are dominant, the impact of trade on volatility can be negative, because trade becomes
-            a source of diversiÖcation. For example, trade allows domestic goods producers to respond to shocks to the domestic supply chain by shifting sourcing abroad. Similarly,
+            a source of diversification. For example, trade allows domestic goods producers to respond to shocks to the domestic supply chain by shifting sourcing abroad. Similarly,
             when a country has multiple trading partners, a domestic recession or a recession in
             any one of the trading partners translates into a smaller demand shock for its producers
             than when trade is more limited. Using a calibrated version of the Eaton-Kortum and
