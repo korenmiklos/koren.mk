@@ -1,3 +1,8 @@
+Work in progress:
+    -   id: political_connections
+        author: "Miklós Koren, Ádám Szeidl and Balázs Vedres"
+        title: Political Connections and Favoritism in Hungary
+        date: 2014-08-01
 Peer-reviewed publications: 
     -   id: xandnox
         author: Roc Armenter and Miklós Koren
@@ -69,7 +74,7 @@ Peer-reviewed publications:
         resources:
             -   URL: http://miklos.koren.hu/static/pdf/technological_diversification/aer.103.1.378.pdf
                 Format: application/pdf
-                Function: Artile
+                Function: Article
             -   URL: http://resources.cefig.eu/papers/techdiv_online_appendix.pdf
                 Format: application/pdf
                 Function: Online appendix
