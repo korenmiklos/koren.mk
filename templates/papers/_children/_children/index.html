@@ -12,10 +12,12 @@
 	{% if date %}
 		<p class="date">{{date|monthyear}}</p>
 	{% endif %}
+	{% if abstract %}
 	<h4>Abstract</h4>
 	<p>
 	{{abstract|rst}}
 	</p>
+	{% endif %}
 	{% if note %}
 	<p>
 	{{note|rst}}
