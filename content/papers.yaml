@@ -1,7 +1,7 @@
 Work in progress:
     -   id: transit_trade
         author: "Roc Armenter, Miklós Koren and Dávid Krisztián Nagy"
-        title: Transit Trade
+        title: Transit Trade and Economic Geography
         date: 2014-09-08
     -   id: gender
         author: "Beata Smarzynska Javorcik, Miklós Koren and Álmos Telegdy"
@@ -29,12 +29,15 @@ Peer-reviewed publications:
         Title: Per-Shipment Costs and the Lumpiness of International Trade
         Abstract: >
             Using detailed U.S. and Spanish export data, we document that trade costs of a per-shipment nature are associated with less frequent and larger shipments, i.e. more lumpiness, in international trade. This finding is pervasive across broad product categories, but most apparent for food products, industrial supplies and parts and accessories.
-        Date: 2013-11-19
+        Date: 2014-01-01
         note: Forthcoming in the *Review of Economics and Statistics*.
         resources:
             -   URL: http://miklos.koren.hu/static/pdf/per_shipment_costs/note.pdf
                 Format: application/pdf
                 Function: Working paper version
+            -   URL: https://github.com/korenmiklos/per-shipment-costs-replication
+                Format: text/html
+                Function: Replication code and data
         impact_factor: 2.35
     -   id: balls_and_bins
         author: Roc Armenter and Miklós Koren
@@ -331,4 +334,15 @@ Working papers:
             -   URL: http://resources.cefig.eu/papers/spatial_balassa_samuelson.pdf
                 Format: application/pdf
                 Function: Full text
+Publications in Hungarian: 
+    -   id: munkaeropiaci_tukor
+        author: Koren Miklós és Tóth Péter
+        title: A külkereskedelem hatása a vállalati munkaerőre és a bérek alakulására
+        note: >
+            In: Fazekas K, Benczúr P, Telegdy Á (szerk.) Munkerőpiaci Tükör, 2012. pp. 249-274.
+        date: 2012-08-01
+        resources:
+            -   URL: http://econ.core.hu/file/download/mt_2012_hun/kozel2.pdf
+                Format: application/pdf
+                Function: Tanulmány
 
