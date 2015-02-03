@@ -22,6 +22,9 @@ Peer-reviewed publications:
             -   URL: /static/pdf/administrative_barriers_to_trade.pdf
                 Format: application/pdf
                 Function: Full text (pdf)
+            -   URL: http://dx.doi.org/10.1016/j.jinteco.2015.01.002
+                Format: text/html
+                Function: Link to publisher website (unrestricted open access)
         note: Forthcoming the *Journal of International Economics*.
     -   id: xandnox
         author: Roc Armenter and Miklós Koren
@@ -46,6 +49,9 @@ Peer-reviewed publications:
             -   URL: http://miklos.koren.hu/static/pdf/per_shipment_costs/note.pdf
                 Format: application/pdf
                 Function: Working paper version
+            -   URL: http://dx.doi.org/10.1162/REST_a_00468
+                Format: text/html
+                Function: Link to publisher website
             -   URL: https://github.com/korenmiklos/per-shipment-costs-replication
                 Format: text/html
                 Function: Replication code and data
