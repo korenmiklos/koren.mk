@@ -11,7 +11,7 @@ Work in progress:
         author: "Miklós Koren, Ádám Szeidl and Balázs Vedres"
         title: Political Connections and Favoritism in Hungary
         date: 2014-08-01
-Peer-reviewed publications: 
+Peer-reviewed publications:
     -   id: administrative_barriers_to_trade
         author: Cecília Hornok and Miklós Koren
         Title: Administrative Barriers to Trade
@@ -25,26 +25,46 @@ Peer-reviewed publications:
             -   URL: http://dx.doi.org/10.1016/j.jinteco.2015.01.002
                 Format: text/html
                 Function: Link to publisher website (unrestricted open access)
-        note: Forthcoming the *Journal of International Economics*.
+        citation:
+            journal: Journal of International Economics
+            year: 2015
+            volume: 96
+            number: S1
+            pages: "S110-S122"
+            identifier:
+            -   type: DOI
+                id: 10.1016/j.jinteco.2015.01.002
+                url: http://dx.doi.org/10.1016/j.jinteco.2015.01.002
     -   id: xandnox
         author: Roc Armenter and Miklós Koren
         Title: Economies of Scale and the Size of Exporters
         Abstract: >
             Exporters are few---less than one fifth among U.S. manufacturing firms---and are larger than non-exporting firms---about 4-5 times more total sales per firm. These facts are often cited as support for models with economies of scale and firm heterogeneity as in Melitz (2003). We find that the basic Melitz model cannot simultaneously match the size and share of exporters given the observed distribution of total sales. Instead exporters are expected to be between 90 and 100 times larger than non-exporters. It is easy to reconcile the model with the data. However, a lot of variation independent of firm size is needed to do so. This suggests that economies of scale play only a minor role in determining the export status of a firm. We show that the augmented model also has markedly different implications in the event of a trade liberalization. Most of the adjustment is through the intensive margin; and productivity gains due to reallocation are halved.
-        Date: 2014-05-27
-        note: Forthcoming in the *Journal of the European Economic Association*.
+        Date: 2015-06-01
         resources:
             -   URL: http://miklos.koren.hu/static/pdf/exporter_size.pdf
                 Format: application/pdf
                 Function: Full text
+            -   URL: http://onlinelibrary.wiley.com/doi/10.1111/jeea.12108/abstract
+                Format: text/html
+                Function: Link to publisher website
         impact_factor: 2.05
+        citation:
+            journal: Journal of the European Economic Association
+            year: 2015
+            volume: 13
+            number: 3
+            pages: "482-511"
+            identifier:
+            -   type: DOI
+                id: 10.1111/jeea.12108
+                url: http://onlinelibrary.wiley.com/doi/10.1111/jeea.12108/abstract
     -   id: admin_restat
         author: Cecília Hornok and Miklós Koren
         Title: Per-Shipment Costs and the Lumpiness of International Trade
         Abstract: >
             Using detailed U.S. and Spanish export data, we document that trade costs of a per-shipment nature are associated with less frequent and larger shipments, i.e. more lumpiness, in international trade. This finding is pervasive across broad product categories, but most apparent for food products, industrial supplies and parts and accessories.
         Date: 2014-01-01
-        note: Forthcoming in the *Review of Economics and Statistics*.
         resources:
             -   URL: http://miklos.koren.hu/static/pdf/per_shipment_costs/note.pdf
                 Format: application/pdf
@@ -55,12 +75,22 @@ Peer-reviewed publications:
             -   URL: https://github.com/korenmiklos/per-shipment-costs-replication
                 Format: text/html
                 Function: Replication code and data
+        citation:
+            journal: Review of Economics and Statistics
+            year: 2015
+            volume: 97
+            number: 2
+            pages: "525-530"
+            identifier:
+            -   type: DOI
+                id: 10.1162/REST_a_00468
+                url: http://dx.doi.org/10.1162/REST_a_00468
         impact_factor: 2.35
     -   id: balls_and_bins
         author: Roc Armenter and Miklós Koren
         Title: A Balls-and-Bins Model of Trade
         Abstract: >
-            Many of the facts about the extensive margin of trade---which firms export, and how many products sent to how many destinations---are consistent with a surprisingly large class of trade models because of the sparse nature of trade data. We propose a statistical model to account for sparsity, formalizing the assignment of trade shipments to country, product and firm categories as balls falling into bins. The balls-and-bins model quantitatively reproduces the pattern of zero product- and firm-level trade flows across export destinations, and the frequency of multi-product, multi-destination exporters. In contrast, balls-and-bins overpredicts the fraction of exporting firms. 
+            Many of the facts about the extensive margin of trade---which firms export, and how many products sent to how many destinations---are consistent with a surprisingly large class of trade models because of the sparse nature of trade data. We propose a statistical model to account for sparsity, formalizing the assignment of trade shipments to country, product and firm categories as balls falling into bins. The balls-and-bins model quantitatively reproduces the pattern of zero product- and firm-level trade flows across export destinations, and the frequency of multi-product, multi-destination exporters. In contrast, balls-and-bins overpredicts the fraction of exporting firms.
         Date: 2013-10-15
         resources:
             -   URL: http://miklos.koren.hu/static/pdf/balls_and_bins/manuscript.pdf
@@ -188,12 +218,12 @@ Peer-reviewed publications:
         -   URL: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.195.8805&amp;rep=rep1&amp;type=pdf"
             Format: application/pdf
             Function: Full text (pdf)
-Other publications: 
+Other publications:
     -   id: munkaeropiaci_tukor
         author: Miklós Koren and Péter Tóth
         title: The impact of international trade on employment and wages
         note: >
-            In: Fazekas K, Benczúr P, Telegdy Á (eds.) The Hungarian labour market, 2013. 
+            In: Fazekas K, Benczúr P, Telegdy Á (eds.) The Hungarian labour market, 2013.
             Budapest: Centre for Economic and Regional Studies, Hungarian Academy of Sciences; National Employment Non-profit Public Company, 2013. pp. 246-272.
         date: 2013-05-01
         resources:
@@ -211,7 +241,7 @@ Other publications:
                 Format: text/html
                 Function: Link to Bruegel website
         note: >
-            Békés, Gábor, László Halpern, Miklós Koren and Balázs Muraközy. 2011. 
+            Békés, Gábor, László Halpern, Miklós Koren and Balázs Muraközy. 2011.
             "Still standing: how European firms weathered the crisis - The third EFIGE policy report."
             Bruegel Blueprint Series, Vol. XV.
     -   id: GCC
@@ -242,7 +272,7 @@ Other publications:
             Function: Replication code and data
         note: >
             Koren, Miklós and Silvana Tenreyro. 2011.
-            "Volatility, diversification and development in the Gulf Cooperation Council countries." 
+            "Volatility, diversification and development in the Gulf Cooperation Council countries."
             In David Held and Kristian Ulrichsen (eds), *The Transformation of the Gulf: Politics, Economics and the Global Order*, Chapter 9, Routledge.
 
 Working papers:
@@ -341,7 +371,7 @@ Working papers:
             -   URL: http://resources.cefig.eu/papers/spatial_balassa_samuelson.pdf
                 Format: application/pdf
                 Function: Full text
-Publications in Hungarian: 
+Publications in Hungarian:
     -   id: firm_network_survey
         author: "Kondor Péter, Koren Miklós, Pál Jenő és Szeidl Ádám"
         title: Cégek kapcsolati hálózatainak gazdasági szerepe
@@ -369,4 +399,3 @@ Publications in Hungarian:
             -   URL: http://econ.core.hu/file/download/mt_2012_hun/kozel2.pdf
                 Format: application/pdf
                 Function: Tanulmány
-
