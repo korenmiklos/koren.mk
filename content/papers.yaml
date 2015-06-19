@@ -12,6 +12,17 @@ Work in progress:
         title: Political Connections and Favoritism in Hungary
         date: 2014-08-01
 Peer-reviewed publications:
+    -   id: imported_inputs_and_productivity
+        author: "László Halpern, Miklós Koren and Adam Szeidl"
+        Title: Imported Inputs and Productivity
+        Abstract: >
+            We estimate a model of importers in Hungarian micro data and conduct counterfactual policy analysis to investigate the effect of imported inputs on productivity. We find that importing all input varieties used in production would increase a firm's revenue productivity by 22 percent, about half of which is due to imperfect substitution between foreign and domestic inputs. Foreign firms use imports more effectively and pay lower fixed import costs. Our estimates imply that during 1993-2002, a quarter of the productivity growth in Hungary was due to imported inputs. Simulations show that the productivity gain from a tariff cut is larger when the economy has many importers and many foreign firms, implying policy complementarities between tariff cuts, dismantling non-tariff barriers, and FDI liberalization.
+        Date: 2015-03-16
+        note: Forthcoming in the *American Economic Review*.
+        resources:
+            -   URL: /static/pdf/imported_inputs_and_productivity.pdf
+                Format: application/pdf
+                Function: Full text
     -   id: administrative_barriers_to_trade
         author: Cecília Hornok and Miklós Koren
         Title: Administrative Barriers to Trade
@@ -319,17 +330,6 @@ Working papers:
         -   URL: http://www.princeton.edu/~reddings/cure2012/Koren.pdf
             Format: application/pdf
             function: First draft
-    -   id: imported_inputs_and_productivity
-        author: "László Halpern, Miklós Koren and Adam Szeidl"
-        Title: Imported Inputs and Productivity
-        Abstract: >
-            We estimate a model of importers in Hungarian micro data and conduct counterfactual policy analysis to investigate the effect of imports on productivity. We find that importing all foreign varieties would increase firm productivity by 12 percent, almost two-fifths of which is due to imperfect substitution between foreign and domestic goods. The effectiveness of import use is higher for foreign firms and increases when a firm becomes foreign-owned. Our estimates imply that during 1993-2002 one-third of the productivity growth in Hungary was due to imported inputs. Simulations show that the productivity gain from a tariff cut is largest when the economy has many importers and many foreign firms, implying policy complementarities between tariff cuts, dismantling non-tariff barriers, and FDI liberalization.
-        Date: 2011-09-16
-        note: Revise and resubmit at the *American Economic Review*.
-        resources:
-            -   URL: http://resources.cefig.eu/papers/imported_inputs_and_productivity.pdf
-                Format: application/pdf
-                Function: Full text
     -   id: machines_and_machinists
         author: Miklós Koren and Márton Csillag
         Title: >
