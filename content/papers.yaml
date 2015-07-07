@@ -23,6 +23,9 @@ Peer-reviewed publications:
             -   URL: /static/pdf/imported_inputs_and_productivity.pdf
                 Format: application/pdf
                 Function: Full text
+            -   URL: https://github.com/korenmiklos/imported-inputs-and-productivity-replication
+                Format: text/html
+                Function: Replication code
     -   id: administrative_barriers_to_trade
         author: Cecília Hornok and Miklós Koren
         Title: Administrative Barriers to Trade
