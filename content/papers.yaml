@@ -310,7 +310,10 @@ Working papers:
         resources:
         -   URL: http://miklos.koren.hu/static/pdf/bridges.pdf
             Format: application/pdf
-            Function: First draft
+            Function: Working paper
+        -   URL: https://github.com/ceumicrodata/quadtree
+            Format: text/html
+            Function: Quadtree Python package to efficiently search points within a polygon
     -   id: everything_all_the_time
         author: Roc Armenter and Miklós Koren
         title: Everything all the time? Entry and Exit in U.S. Import Varieties
