@@ -116,6 +116,12 @@ Peer-reviewed publications:
             -   URL: http://miklos.koren.hu/static/pdf/balls_and_bins/AER-MS-20101454-replication.zip
                 Format: application/zip
                 Function: Replication data and code
+            -   URL: http://www-2.rotman.utoronto.ca/bblum/MS_AER-2014-0372_Manuscript_Final_Version.pdf
+                Format: application/pdf
+                Function: A comment by Blum, Claro and Horstmann (2015)
+            -   URL: /papers/working_papers/bb_reply/
+                Format: text/html
+                Function: Our reply to Blum, Claro and Horstmann (2015)
         impact_factor: 2.79
         citation:
             journal: American Economic Review
@@ -290,6 +296,16 @@ Other publications:
             In David Held and Kristian Ulrichsen (eds), *The Transformation of the Gulf: Politics, Economics and the Global Order*, Chapter 9, Routledge.
 
 Working papers:
+    -   id: bb_reply
+        title: "A Balls-and-Bins Model of Trade: Reply"
+        author: "Roc Armenter and Miklós Koren"
+        date: 2015-09-11
+        abstract: >
+            Blum, Claro and Horstmann (forthcoming) make two statements about the balls-and-bins model of Armenter and Koren (2014). First, that using firm-level shipment data changes some of our results. Second, that the balls-and-bins model is not an appropriate statistical method. We respond to the first statement and argue that the second statement is unfounded and unrelated to the first. Indeed, the work of Blum et al (forthcoming) is a perfect example of how to use balls-and-bins in a rich dataset to spot interesting data patterns.
+        resources:
+            -   URL: /static/pdf/balls_and_bins/reply.pdf
+                Format: application/pdf
+                Function: Full text
     -   id: diversification_through_trade
         title: Diversification through Trade
         author: "Francesco Caselli, Miklós Koren, Milan Lisicky and Silvana Tenreyro"
