@@ -306,6 +306,12 @@ Working papers:
             -   URL: /static/pdf/balls_and_bins/reply.pdf
                 Format: application/pdf
                 Function: Full text
+            -   URL: /papers/peer_reviewed_publications/balls_and_bins/
+                Format: text/html
+                Function: Armenter and Koren (2014)
+            -   URL: http://www-2.rotman.utoronto.ca/bblum/MS_AER-2014-0372_Manuscript_Final_Version.pdf
+                Format: application/pdf
+                Function: Comment by Blum, Claro and Horstmann (2015)
     -   id: diversification_through_trade
         title: Diversification through Trade
         author: "Francesco Caselli, Miklós Koren, Milan Lisicky and Silvana Tenreyro"
