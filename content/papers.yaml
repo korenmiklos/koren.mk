@@ -8,9 +8,17 @@ Work in progress:
         title: Gender Bias Among Hungarian Managers
         date: 2014-09-01
     -   id: political_connections
-        author: "Miklós Koren, Ádám Szeidl and Balázs Vedres"
+        author: "Miklós Koren, Ádám Szeidl, Ferenc Szűcs and Balázs Vedres"
         title: Political Connections and Favoritism in Hungary
         date: 2014-08-01
+    -   id: rails
+        author: Miklós Koren and Bálint Menyhért
+        date: 2015-09-01
+        title: "Ideas on the Rails: Railway Rollout and Human Capital Transfer in the Austro-Hungarian Monarchy"
+    -   id: job2job
+        author: János Köllő and Koren Miklós
+        title: Does Experience at Multinationals Pay? Evidence from Job-to-Job Transitions
+        date: 2015-09-01
 Peer-reviewed publications:
     -   id: imported_inputs_and_productivity
         author: "László Halpern, Miklós Koren and Adam Szeidl"
@@ -417,3 +425,13 @@ Publications in Hungarian:
             -   URL: http://econ.core.hu/file/download/mt_2012_hun/kozel2.pdf
                 Format: application/pdf
                 Function: Tanulmány
+    -   id: minimalber
+        author: "Halpern László, Koren Miklós, Kőrösi Gábor és Vincze János"
+        title: A minimálbér költségvetési hatásai
+        date: 2004-01-01
+        citation:
+            journal: Közgazdasági Szemle 
+            volume: 51
+            number: 4
+            pages: "325-345"
+            year: 2004
