@@ -264,6 +264,15 @@ Peer-reviewed publications:
             Format: application/pdf
             Function: Full text (pdf)
 Other publications:
+    -   id: coeure
+        author: Cecília Hornok and Miklós Koren
+        title: "Trade and Development in a Globalized World: The Roadmap for a Research Agenda"
+        note: "COEURE Survey, Chapter 11."
+        date: 2015-10-08
+        resources:
+            -   URL: /static/pdf/hornok-koren-coeure.pdf
+                Format: application/pdf
+                Function: Full text
     -   id: munkaeropiaci_tukor
         author: Miklós Koren and Péter Tóth
         title: The impact of international trade on employment and wages
