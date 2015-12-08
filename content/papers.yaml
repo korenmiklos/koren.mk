@@ -42,12 +42,24 @@ Peer-reviewed publications:
         Title: Imported Inputs and Productivity
         Abstract: >
             We estimate a model of importers in Hungarian micro data and conduct counterfactual policy analysis to investigate the effect of imported inputs on productivity. We find that importing all input varieties used in production would increase a firm's revenue productivity by 22 percent, about half of which is due to imperfect substitution between foreign and domestic inputs. Foreign firms use imports more effectively and pay lower fixed import costs. Our estimates imply that during 1993-2002, a quarter of the productivity growth in Hungary was due to imported inputs. Simulations show that the productivity gain from a tariff cut is larger when the economy has many importers and many foreign firms, implying policy complementarities between tariff cuts, dismantling non-tariff barriers, and FDI liberalization.
-        Date: 2015-03-16
-        note: Forthcoming in the *American Economic Review*.
+        Date: 2015-12-01
+        citation:
+            journal: American Economic Review
+            year: 2015
+            volume: 105
+            number: 12
+            pages: "3660-3703"
+            identifier:
+            -   type: DOI
+                id: 10.1257/aer.20150443
+                url: http://dx.doi.org/10.1257/aer.20150443
         resources:
             -   URL: /static/pdf/imported-inputs-and-productivity.pdf
                 Format: application/pdf
                 Function: Full text
+            -   URL: https://www.aeaweb.org/articles.php?doi=10.1257/aer.20150443
+                Format: text/html
+                Function: Publisher website
             -   URL: https://github.com/korenmiklos/imported-inputs-and-productivity-replication
                 Format: text/html
                 Function: Replication code
@@ -377,6 +389,9 @@ Working papers:
         -   URL: https://github.com/ceumicrodata/quadtree
             Format: text/html
             Function: Quadtree Python package to efficiently search points within a polygon
+        -   URL: https://www.dropbox.com/s/l8tmmt0wve2tp1c/koren-bridges.pdf?dl=0
+            Format: application/pdf
+            Function: Slides
     -   id: everything_all_the_time
         author: Roc Armenter and Miklós Koren
         title: Everything all the time? Entry and Exit in U.S. Import Varieties
