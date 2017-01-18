@@ -47,7 +47,7 @@
 	{% endfor %}
 
 <h1>Recent Conference and Seminar Presentations</h1>
-{% for year in ['2015', '2014', '2013', ] %}
+{% for year in ['2016', '2015', '2014', ] %}
 <h3>{{year}}</h3>
 <p>{% for item in TALKS %}{% if item.date.get_data()[:4]==year %}
 {% if item.event %}{{item.event}}{% else %}{{item.organizer}}{% endif %}. {% endif %}{% endfor %}</p>
