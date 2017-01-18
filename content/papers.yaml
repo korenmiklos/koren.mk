@@ -1,4 +1,10 @@
 Work in progress:
+    -   id: import_spillovers
+        title: Learning to Import from Your Peers
+        author: "Márta Bisztray, Miklós Koren and Adam Szeidl"
+        date: 2016-12-09
+        abstract: >
+            We estimate knowledge spillovers in importing. Using firm-level data from Hungary we docu- ment that firms with peer firms—connected through close spatial or managerial networks—that have trade experience with a particular country are more likely to start importing from that country. Our empirical strategy is based on variation in partner countries, controlling for firm- year and country-year effects and for ownership links between the firm and the peer, thus eliminating several possible alternative explanations. We show that knowledge spillovers are highly localized in space, and that firms learn more from larger, more productive and same- industry peers which import the same product. Our results suggest that even in a very open economy information frictions form an important barrier to importing.
     -   id: transit_trade
         author: "Roc Armenter, Miklós Koren and Dávid Krisztián Nagy"
         title: Transit Trade and Economic Geography
