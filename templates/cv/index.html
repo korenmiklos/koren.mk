@@ -53,11 +53,18 @@
 {% if item.event %}{{item.event}}{% else %}{{item.organizer}}{% endif %}. {% endif %}{% endfor %}</p>
 {% endfor %}
 
-	{% for lst in [CV.grants, CV.professional_service, CV.referee]%}
+	{% for lst in [CV.grants, CV.professional_service]%}
 	<h1>{{lst.get_verbose_name()}}</h1>
 		{% for item in lst %}
 		<p>{{item.get_data()}}</p>
 		{% endfor %}
+	{% endfor %}
+
+	{% for lst in [CV.referee]%}
+	<h1>{{lst.get_verbose_name()}}</h1>
+		<p>{% for item in lst %}
+		{{item.get_data()}},  
+		{% endfor %}</p>
 	{% endfor %}
 
 </article>

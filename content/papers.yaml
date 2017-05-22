@@ -1,4 +1,8 @@
 Work in progress:
+    -   id: supplier_agglomeration
+        title: The Economic Geography of Supply Chains
+        author: "Gábor Békés, Miklós Koren, Balázs Muraközy and Álmos Telegdy"
+        date: 2017-01-19
     -   id: import_spillovers
         title: Learning to Import from Your Peers
         author: "Márta Bisztray, Miklós Koren and Adam Szeidl"
@@ -291,6 +295,17 @@ Peer-reviewed publications:
             Format: application/pdf
             Function: Full text (pdf)
 Other publications:
+    -   id: coeure_book
+        author: Cecília Hornok and Miklós Koren
+        title: "Winners and Losers of Globalization: Sixteen Challenges for Measurement and Theory"
+        note: "in: Mátyás et al. (eds), Economics without Borders: Economic Research for European Policy Challenges. Cambridge University Press. Chapter 6, pp 230-273."
+        date: 2017-03-01
+        abstract: >
+            The goal of this chapter is to summarize the state of the art in research in inter- national trade and global production, and discuss issues relevant to European policymakers. Much of recent research on globalization is primarily empiri- cal, owing to the proliferation of available data. We begin by discussing recent advances in measuring the causes and effects of globalization, and discussing the particular data challenges that have emerged. We then turn to theories of trade and global production,  rst summarizing the conclusions on which there is a broad consensus in the  eld. We discuss new insights that may be relevant for policy-makers, and open research questions.
+        resources:
+            -   URL: "http://admin.cambridge.org/se/academic/subjects/economics/macroeconomics-and-monetary-economics/economics-without-borders-economic-research-european-policy-challenges#bookPeople"
+                Format: text/html
+                Function: Publisher's website
     -   id: coeure
         author: Cecília Hornok and Miklós Koren
         title: "Trade and Development in a Globalized World: The Roadmap for a Research Agenda"
