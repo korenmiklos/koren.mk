@@ -1,4 +1,8 @@
 Work in progress:
+    -   id: political_connections
+        author: "Miklós Koren, Ádám Szeidl, Ferenc Szűcs and Balázs Vedres"
+        title: Efficiciency Losses from Misallocating Government Contracts
+        date: 2017-06-01
     -   id: supplier_agglomeration
         title: The Economic Geography of Supply Chains
         author: "Gábor Békés, Miklós Koren, Balázs Muraközy and Álmos Telegdy"
@@ -11,10 +15,6 @@ Work in progress:
         author: "Beata Smarzynska Javorcik, Miklós Koren and Álmos Telegdy"
         title: Gender Bias Among Hungarian Managers
         date: 2014-09-01
-    -   id: political_connections
-        author: "Miklós Koren, Ádám Szeidl, Ferenc Szűcs and Balázs Vedres"
-        title: Political Connections and Favoritism in Hungary
-        date: 2014-08-01
     -   id: rails
         author: Miklós Koren and Bálint Menyhért
         date: 2015-09-01
@@ -397,6 +397,16 @@ Working papers:
             -   URL: /static/pdf/import_spillovers/online_appendix.pdf
                 Format: application/pdf
                 Function: Online Appendix
+    -   id: machines_and_machinists
+        author: Miklós Koren and Márton Csillag
+        Title: >
+            Machines and machinists: Importing skill-biased technology
+        Abstract: We show in Hungarian linked employer-employee data for 1992-2003 that machine operators exposed to imported machines earn higher wages than similar workers at similar firms. Using product-specific tariff rates as instruments for importing suggests that the importer wage premium is causal. The returns to skill have increased in our sample between 1992 and 2000. A quarter of the increase can be attributed to greater exposure to imported machines. We build a model to to explain which workers and firms use imported machines and how this affects wages. Our results suggest that imported machines can help propagate skill-biased technical change.
+        Date: 2016-08-19
+        resources:
+        -   URL: https://github.com/korenmiklos/machines-replication/raw/master/machines.pdf
+            Format: application/pdf
+            Function: Full text
     -   id: diversification_through_trade
         title: Diversification through Trade
         author: "Francesco Caselli, Miklós Koren, Milan Lisicky and Silvana Tenreyro"
@@ -449,26 +459,6 @@ Working papers:
         -   URL: http://econ.la.psu.edu/papers/Armenter040113.pdf
             Format: application/pdf
             function: First draft
-    -   id: machines_and_machinists
-        author: Miklós Koren and Márton Csillag
-        Title: >
-            Machines and machinists: Importing skill-biased technology
-        Abstract: We show in Hungarian linked employer-employee data for 1992-2003 that machine operators exposed to imported machines earn higher wages than similar workers at similar firms. Using product-specific tariff rates as instruments for importing suggests that the importer wage premium is causal. The returns to skill have increased in our sample between 1992 and 2000. A quarter of the increase can be attributed to greater exposure to imported machines. We build a model to to explain which workers and firms use imported machines and how this affects wages. Our results suggest that imported machines can help propagate skill-biased technical change.
-        Date: 2016-08-19
-        resources:
-        -   URL: https://github.com/korenmiklos/machines-replication/raw/master/machines.pdf
-            Format: application/pdf
-            Function: Full text
-    -   id: balassa
-        author: Péter Karádi and Miklós Koren
-        Title: A Spatial Explanation for the Balassa-Samuelson Effect
-        Abstract: >
-            We propose a simple spatial model to explain why the price level is higher in rich countries. There are two sectors: manufacturing, which is freely tradable, and non-tradable services, which have to locate near customers in big cities. As countries develop, total factor productivity increases simultaneously in both sectors. However, because services compete with the population for scarce land, labor productivity will grow slower in services than in manufacturing. Services become more expensive, and the aggregate price level becomes higher. The model hence provides a theoretical foundation for the Balassa--Samuelson assumption that productivity growth is slower in the non-tradable sector than in the tradable sector. Empirical results confirm two key implications of the theory. First, we compare countries where land is scarce (densely populated, highly urban countries) to rural countries. The Balassa--Samuelson effect is stronger among urban countries. Second, we compare sectors that locate at different distance to consumers. The Balassa--Samuelson effect is stronger within sectors that locate closer to consumers.
-        Date: 2008-10-01
-        resources:
-            -   URL: http://resources.cefig.eu/papers/spatial_balassa_samuelson.pdf
-                Format: application/pdf
-                Function: Full text
 Publications in Hungarian:
     -   id: firm_network_survey
         author: "Kondor Péter, Koren Miklós, Pál Jenő és Szeidl Ádám"
