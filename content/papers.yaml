@@ -374,6 +374,17 @@ Other publications:
             "Volatility, diversification and development in the Gulf Cooperation Council countries."
             In David Held and Kristian Ulrichsen (eds), *The Transformation of the Gulf: Politics, Economics and the Global Order*, Chapter 9, Routledge.
 Working papers:
+    -   id: cattle
+        author: Péter Karádi and Miklós Koren
+        title: "Cattle, Steaks and Restaurants: Development Accounting when Space Matters"
+        Date: 2017-06-22
+        abstract: >
+            We introduce location choice in a multi-sector general equilibrium model to study how it affects development accounting. Producers in agriculture, manufacturing and services choose their location to trade off land rents with transport costs to the city center. We show how space affects the aggregate production function and decompose output per worker into productivity, land per worker, and a term adjusting for sector location. In our model, services are luxury goods. As a result, richer cities have larger service cores, higher service prices, and relatively less output per worker in services. These predictions are broadly consistent with the data. We calibrate our model to data on cities in OECD countries and show that land and location explain 10--30 percentage points of the variation in output per worker.
+        note: Work in progress.
+        resources:
+        -   URL: http://miklos.koren.hu/static/pdf/cattle.pdf
+            Format: application/pdf
+            function: Manuscript
     -   id: import_spillovers
         title: Learning to Import from Your Peers
         author: "Márta Bisztray, Miklós Koren and Adam Szeidl"
@@ -437,17 +448,6 @@ Working papers:
         note: Work in progress.
         resources:
         -   URL: http://econ.la.psu.edu/papers/Armenter040113.pdf
-            Format: application/pdf
-            function: First draft
-    -   id: cattle
-        author: Péter Karádi and Miklós Koren
-        title: "Cattle, Steaks and Restaurants: Development Accounting when Space Matters"
-        Date: 2012-10-19
-        abstract: >
-            We conduct sector-level development accounting in a macro model where land and location play a role. Producers in agriculture, manufacturing and services choose their location to trade off transport costs to the city center and rents. We solve for the spatial equilibrium and show how space affects the aggregate production function and measured productivity. Studies not accounting for sector location will deem services in large, expensive cities unproductive. This biases development accounting because rich countries have large service-cities. Our preliminary calibrations show that, correcting for sector location, service productivity varies as much across countries as manufacturing productivity does. This is in contrast with previous studies that found smaller variation in service productivity.
-        note: Work in progress.
-        resources:
-        -   URL: http://www.princeton.edu/~reddings/cure2012/Koren.pdf
             Format: application/pdf
             function: First draft
     -   id: machines_and_machinists
