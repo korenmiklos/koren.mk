@@ -381,7 +381,7 @@ Working papers:
         Abstract: We build a model of technology choice with heterogeneous firms and workers to study how imported technology affects wages. Imported machines increase the productivity of worker-firm matches, but are more expensive than domestic ones. More productive firms and more skilled workers are hence more likely to use an imported machine. We study trade liberalization in the model, which makes imported machines cheaper. Both the direct and the equilibrium implications of trade liberalization increase the returns to skill. We use linked employer-employee data on Hungarian machine operators for 1992-2003 to test the predictions of the model. Machine operators exposed to imported machines earn higher wages than similar workers at similar firms. The returns to skill have increased in our sample between 1992 and 2000. A quarter of the increase can be attributed to greater exposure to imported machines. Our results suggest that imported machines can help propagate skill-biased technical change.
         Date: 2017-08-03
         resources:
-        -   URL: static/pdf/machines.pdf
+        -   URL: /static/pdf/machines.pdf
             Format: application/pdf
             Function: Full text
     -   id: cattle
