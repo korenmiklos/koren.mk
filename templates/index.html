@@ -3,6 +3,8 @@
 {% block title %}{{title}}{% endblock %}
 
 {% block content %}
+<article>
+	<h3>I am interested in how technology changes who succeeds in the marketplace.</h3>
 	{% for series in current_page.papers %}
 			<h1><a href="{{series.get_relative_url(current_page)}}">Recent {{series.get_verbose_name()|lower}} (more...)</a></h1>
 	<dl><ol>
@@ -11,6 +13,7 @@
 			{% endfor %}
 	</ol></dol>
 	{% endfor %}
+</article>
 {% endblock %}
 
 {% block option_papers %}class="active"{% endblock %}
