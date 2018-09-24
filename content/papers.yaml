@@ -1,28 +1,77 @@
-Work in progress:
-    -   id: political_connections
-        author: "Miklós Koren, Ádám Szeidl, Ferenc Szűcs and Balázs Vedres"
-        title: Efficiciency Losses from Misallocating Government Contracts
-        date: 2017-06-01
-    -   id: supplier_agglomeration
-        title: The Economic Geography of Supply Chains
-        author: "Gábor Békés, Miklós Koren, Balázs Muraközy and Álmos Telegdy"
-        date: 2017-01-19
-    -   id: transit_trade
+Working papers:
+    -   id: machines_and_machinists
+        author: Miklós Koren and Márton Csillag
+        Title: >
+            Machines and machinists: Importing skill-biased technology
+        Abstract: We build a model of technology choice with heterogeneous firms and workers to study how imported technology affects wages. Imported machines increase the productivity of worker-firm matches, but are more expensive than domestic ones. More productive firms and more skilled workers are hence more likely to use an imported machine. We study trade liberalization in the model, which makes imported machines cheaper. Both the direct and the equilibrium implications of trade liberalization increase the returns to skill. We use linked employer-employee data on Hungarian machine operators for 1992-2003 to test the predictions of the model. Machine operators exposed to imported machines earn higher wages than similar workers at similar firms. The returns to skill have increased in our sample between 1992 and 2000. A quarter of the increase can be attributed to greater exposure to imported machines. Our results suggest that imported machines can help propagate skill-biased technical change.
+        Date: 2017-08-03
+        resources:
+        -   URL: /static/pdf/machines.pdf
+            Format: application/pdf
+            Function: Full text
+    -   id: cattle
+        author: Péter Karádi and Miklós Koren
+        title: "Cattle, Steaks and Restaurants: Development Accounting when Space Matters"
+        Date: 2017-06-22
+        abstract: >
+            We introduce location choice in a multi-sector general equilibrium model to study how it affects development accounting. Producers in agriculture, manufacturing and services choose their location to trade off land rents with transport costs to the city center. We show how space affects the aggregate production function and decompose output per worker into productivity, land per worker, and a term adjusting for sector location. In our model, services are luxury goods. As a result, richer cities have larger service cores, higher service prices, and relatively less output per worker in services. These predictions are broadly consistent with the data. We calibrate our model to data on cities in OECD countries and show that land and location explain 10--30 percentage points of the variation in output per worker.
+        resources:
+        -   URL: http://miklos.koren.hu/static/pdf/cattle.pdf
+            Format: application/pdf
+            function: Manuscript
+        note: Under revision for the *Review of Economic Dynamics*.
+    -   id: diversification_through_trade
+        title: Diversification through Trade
+        author: "Francesco Caselli, Miklós Koren, Milan Lisicky and Silvana Tenreyro"
+        date: 2015-07-01
+        abstract: >
+            A widely held view is that openness to international trade leads to higher GDP volatility, as trade increases specialization and hence exposure to sector-specific shocks. We revisit the common wisdom and argue that when country-wide shocks are important, openness to international trade can lower GDP volatility by reducing exposure to domestic shocks and allowing countries to diversify the sources of demand and supply across countries. Using a quantitative model of trade, we assess the importance of the two mechanisms (sectoral specialization and cross-country diversification) and provide a new answer to the question of whether and how international trade a§ects economic volatility.
+        resources:
+            -   URL: /static/pdf/diversification-through-trade.pdf
+                Format: application/pdf
+                Function: Full text
+            -   URL: http://www.voxeu.org/article/macro-diversification-through-trade
+                Format: text/html
+                Function: Column on VoxEU
+        note: Under revision for the *Quarterly Journal of Economics*.
+    -   id: bridges
         author: "Roc Armenter, Miklós Koren and Dávid Krisztián Nagy"
-        title: Transit Trade and Economic Geography
-        date: 2014-09-08
-    -   id: gender
-        author: "Beata Smarzynska Javorcik, Miklós Koren and Álmos Telegdy"
-        title: Gender Bias Among Hungarian Managers
-        date: 2014-09-01
-    -   id: rails
-        author: Miklós Koren and Bálint Menyhért
-        date: 2015-09-01
-        title: "Ideas on the Rails: Railway Rollout and Human Capital Transfer in the Austro-Hungarian Monarchy"
-    -   id: job2job
-        author: János Köllő and Koren Miklós
-        title: Does Experience at Multinationals Pay? Evidence from Job-to-Job Transitions
-        date: 2015-09-01
+        title: Bridges
+        Date: 2014-07-23
+        abstract: >
+            We build a continuous-space theory of trade in which people in a region
+            agglomerate to exploit trading opportunities with another region. The
+            regions are separated by a river, which can be crossed anywhere, but more
+            cheaply at bridges. In the model, most trade takes place via bridges,
+            leading to a key prediction that population density declines with distance
+            to the bridge. We derive additional predictions about the spatial
+            distribution of population and test them on current high-resolution population
+            density data around twelve major American rivers. The data is mostly
+            consistent with our model. In a historical event study of 19th-century bridges on these rivers, we find that the neighborhood of bridges developed faster after the bridge was built. Also, the two sides of the bridge converged in development, highlighting the connecting role of the bridge.
+            More generally, our results suggest that economies of density arising from transport infrastructure can help explain
+            why and where people agglomerate.
+        note: Work in progress.
+        resources:
+        -   URL: http://miklos.koren.hu/static/pdf/bridges.pdf
+            Format: application/pdf
+            Function: Working paper
+        -   URL: https://github.com/ceumicrodata/quadtree
+            Format: text/html
+            Function: Quadtree Python package to efficiently search points within a polygon
+        -   URL: https://www.dropbox.com/s/l8tmmt0wve2tp1c/koren-bridges.pdf?dl=0
+            Format: application/pdf
+            Function: Slides
+    -   id: everything_all_the_time
+        author: Roc Armenter and Miklós Koren
+        title: Everything all the time? Entry and Exit in U.S. Import Varieties
+        Date: 2013-04-01
+        abstract: >
+            We propose a new theory of the extensive margin of trade based on a standard random-utility, discrete choice model for import demand. Crucially, there are only a finite number of independent purchase decisions each period. Whereas traditional demand systems predict market shares, our model yields instead the probability that a purchase for a given good is supplied by any given country. The model has a rich set of predictions regarding the extensive margin across goods, countries, and time. The underlying probabilistic struc- ture naturally reconciles two commanding observations in the data: there is a large fraction of varieties that are not traded yet the entry and exit rates of commodities are very high. We purse an exhaustive evaluation of the model’s quantitative performance with data on U.S. imports at the HS10 product level over the period 1990-2001. The model reproduces faithfully the cross-section distribution of varieties traded per product along several dimensions. Regard- ing dynamic facts, the model is spot on its predictions on the net change, gross entry and exit of commodities, both by count and weighted by value; as well as survival probabilities and hazard rates. We briefly explore the model’s implications for price changes, using NAFTA as a case study, and welfare gains from new varieties.
+        note: Work in progress.
+        resources:
+        -   URL: http://econ.la.psu.edu/papers/Armenter040113.pdf
+            Format: application/pdf
+            function: First draft
 Peer-reviewed publications:
     -   id: import_spillovers
         title: Learning to Import from Your Peers
@@ -387,80 +436,6 @@ Other publications:
             Koren, Miklós and Silvana Tenreyro. 2011.
             "Volatility, diversification and development in the Gulf Cooperation Council countries."
             In David Held and Kristian Ulrichsen (eds), *The Transformation of the Gulf: Politics, Economics and the Global Order*, Chapter 9, Routledge.
-Working papers:
-    -   id: machines_and_machinists
-        author: Miklós Koren and Márton Csillag
-        Title: >
-            Machines and machinists: Importing skill-biased technology
-        Abstract: We build a model of technology choice with heterogeneous firms and workers to study how imported technology affects wages. Imported machines increase the productivity of worker-firm matches, but are more expensive than domestic ones. More productive firms and more skilled workers are hence more likely to use an imported machine. We study trade liberalization in the model, which makes imported machines cheaper. Both the direct and the equilibrium implications of trade liberalization increase the returns to skill. We use linked employer-employee data on Hungarian machine operators for 1992-2003 to test the predictions of the model. Machine operators exposed to imported machines earn higher wages than similar workers at similar firms. The returns to skill have increased in our sample between 1992 and 2000. A quarter of the increase can be attributed to greater exposure to imported machines. Our results suggest that imported machines can help propagate skill-biased technical change.
-        Date: 2017-08-03
-        resources:
-        -   URL: /static/pdf/machines.pdf
-            Format: application/pdf
-            Function: Full text
-    -   id: cattle
-        author: Péter Karádi and Miklós Koren
-        title: "Cattle, Steaks and Restaurants: Development Accounting when Space Matters"
-        Date: 2017-06-22
-        abstract: >
-            We introduce location choice in a multi-sector general equilibrium model to study how it affects development accounting. Producers in agriculture, manufacturing and services choose their location to trade off land rents with transport costs to the city center. We show how space affects the aggregate production function and decompose output per worker into productivity, land per worker, and a term adjusting for sector location. In our model, services are luxury goods. As a result, richer cities have larger service cores, higher service prices, and relatively less output per worker in services. These predictions are broadly consistent with the data. We calibrate our model to data on cities in OECD countries and show that land and location explain 10--30 percentage points of the variation in output per worker.
-        resources:
-        -   URL: http://miklos.koren.hu/static/pdf/cattle.pdf
-            Format: application/pdf
-            function: Manuscript
-        note: Under revision for the *Review of Economic Dynamics*.
-    -   id: diversification_through_trade
-        title: Diversification through Trade
-        author: "Francesco Caselli, Miklós Koren, Milan Lisicky and Silvana Tenreyro"
-        date: 2015-07-01
-        abstract: >
-            A widely held view is that openness to international trade leads to higher GDP volatility, as trade increases specialization and hence exposure to sector-specific shocks. We revisit the common wisdom and argue that when country-wide shocks are important, openness to international trade can lower GDP volatility by reducing exposure to domestic shocks and allowing countries to diversify the sources of demand and supply across countries. Using a quantitative model of trade, we assess the importance of the two mechanisms (sectoral specialization and cross-country diversification) and provide a new answer to the question of whether and how international trade a§ects economic volatility.
-        resources:
-            -   URL: /static/pdf/diversification-through-trade.pdf
-                Format: application/pdf
-                Function: Full text
-            -   URL: http://www.voxeu.org/article/macro-diversification-through-trade
-                Format: text/html
-                Function: Column on VoxEU
-        note: Under revision for the *Quarterly Journal of Economics*.
-    -   id: bridges
-        author: "Roc Armenter, Miklós Koren and Dávid Krisztián Nagy"
-        title: Bridges
-        Date: 2014-07-23
-        abstract: >
-            We build a continuous-space theory of trade in which people in a region
-            agglomerate to exploit trading opportunities with another region. The
-            regions are separated by a river, which can be crossed anywhere, but more
-            cheaply at bridges. In the model, most trade takes place via bridges,
-            leading to a key prediction that population density declines with distance
-            to the bridge. We derive additional predictions about the spatial
-            distribution of population and test them on current high-resolution population
-            density data around twelve major American rivers. The data is mostly
-            consistent with our model. In a historical event study of 19th-century bridges on these rivers, we find that the neighborhood of bridges developed faster after the bridge was built. Also, the two sides of the bridge converged in development, highlighting the connecting role of the bridge.
-            More generally, our results suggest that economies of density arising from transport infrastructure can help explain
-            why and where people agglomerate.
-        note: Work in progress.
-        resources:
-        -   URL: http://miklos.koren.hu/static/pdf/bridges.pdf
-            Format: application/pdf
-            Function: Working paper
-        -   URL: https://github.com/ceumicrodata/quadtree
-            Format: text/html
-            Function: Quadtree Python package to efficiently search points within a polygon
-        -   URL: https://www.dropbox.com/s/l8tmmt0wve2tp1c/koren-bridges.pdf?dl=0
-            Format: application/pdf
-            Function: Slides
-    -   id: everything_all_the_time
-        author: Roc Armenter and Miklós Koren
-        title: Everything all the time? Entry and Exit in U.S. Import Varieties
-        Date: 2013-04-01
-        abstract: >
-            We propose a new theory of the extensive margin of trade based on a standard random-utility, discrete choice model for import demand. Crucially, there are only a finite number of independent purchase decisions each period. Whereas traditional demand systems predict market shares, our model yields instead the probability that a purchase for a given good is supplied by any given country. The model has a rich set of predictions regarding the extensive margin across goods, countries, and time. The underlying probabilistic struc- ture naturally reconciles two commanding observations in the data: there is a large fraction of varieties that are not traded yet the entry and exit rates of commodities are very high. We purse an exhaustive evaluation of the model’s quantitative performance with data on U.S. imports at the HS10 product level over the period 1990-2001. The model reproduces faithfully the cross-section distribution of varieties traded per product along several dimensions. Regard- ing dynamic facts, the model is spot on its predictions on the net change, gross entry and exit of commodities, both by count and weighted by value; as well as survival probabilities and hazard rates. We briefly explore the model’s implications for price changes, using NAFTA as a case study, and welfare gains from new varieties.
-        note: Work in progress.
-        resources:
-        -   URL: http://econ.la.psu.edu/papers/Armenter040113.pdf
-            Format: application/pdf
-            function: First draft
 Publications in Hungarian:
     -   id: firm_network_survey
         author: "Kondor Péter, Koren Miklós, Pál Jenő és Szeidl Ádám"
@@ -499,3 +474,28 @@ Publications in Hungarian:
             number: 4
             pages: "325-345"
             year: 2004
+Work in progress:
+    -   id: political_connections
+        author: "Miklós Koren, Ádám Szeidl, Ferenc Szűcs and Balázs Vedres"
+        title: Efficiciency Losses from Misallocating Government Contracts
+        date: 2017-06-01
+    -   id: supplier_agglomeration
+        title: The Economic Geography of Supply Chains
+        author: "Gábor Békés, Miklós Koren, Balázs Muraközy and Álmos Telegdy"
+        date: 2017-01-19
+    -   id: transit_trade
+        author: "Roc Armenter, Miklós Koren and Dávid Krisztián Nagy"
+        title: Transit Trade and Economic Geography
+        date: 2014-09-08
+    -   id: gender
+        author: "Beata Smarzynska Javorcik, Miklós Koren and Álmos Telegdy"
+        title: Gender Bias Among Hungarian Managers
+        date: 2014-09-01
+    -   id: rails
+        author: Miklós Koren and Bálint Menyhért
+        date: 2015-09-01
+        title: "Ideas on the Rails: Railway Rollout and Human Capital Transfer in the Austro-Hungarian Monarchy"
+    -   id: job2job
+        author: János Köllő and Koren Miklós
+        title: Does Experience at Multinationals Pay? Evidence from Job-to-Job Transitions
+        date: 2015-09-01
