@@ -330,9 +330,9 @@ Peer-reviewed publications:
         -   URL: http://resources.cefig.eu/papers/voldev_appendix.pdf
             Format: application/pdf
             Function: Appendix
-        -   URL: http://resources.cefig.eu/replication/voldev/
+        -   URL: http://dx.doi.org/10.5281/zenodo.1465437
             Format: text/html
-            Function: Replication data (you can also download it with subversion)
+            Function: Replication data and code
         impact_factor: 5.28
     -   id: employment
         Author: Miklós Koren
@@ -356,9 +356,9 @@ Peer-reviewed publications:
             month: November
         Date: 2001-11-01
         resources:
-        -   URL: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.195.8805&amp;rep=rep1&amp;type=pdf"
-            Format: application/pdf
-            Function: Full text (pdf)
+        -   URL: http://doi.org/10.5281/zenodo.1465449
+            Format: text/html
+            Function: Full text (open access)
 Other publications:
     -   id: coeure_book
         author: Cecília Hornok and Miklós Koren
