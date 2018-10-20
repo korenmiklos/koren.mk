@@ -76,17 +76,29 @@ Peer-reviewed publications:
     -   id: import_spillovers
         title: Learning to Import from Your Peers
         author: "Márta Bisztray, Miklós Koren and Adam Szeidl"
-        date: 2018-09-19
+        date: 2018-11-01
         abstract: >
             We use firm-level data from Hungary to estimate knowledge spillovers in importing through fine spatial and managerial networks. By identifying from variation in peers' import experience across source countries, by comparing the spillover from neighboring buildings with a cross-street placebo, and by exploiting plausibly exogenous firm moves, we obtain credible estimates and establish three results. (1) There are significant knowledge spillovers in both spatial and managerial networks. Having a peer which has imported from a particular country more than doubles the probability of starting to import from that country, but the effect quickly decays with distance. (2) Spillovers are heterogeneous: they are stronger when firms or peers are larger or more productive, and exhibit complementarities in firm and peer productivity. (3) The model-implied social multiplier is highly skewed, implying that targeting an import-encouragement policy to firms with many and productive neighbors can make it 26\% more effective. These results highlight the benefit of firm clusters in facilitating the diffusion of business practices.
         resources:
-            -   URL: /static/pdf/import_spillovers/JIE-S-17-00329-R1.pdf
-                Format: application/pdf
-                Function: Manuscript
+            -   URL: https://doi.org/10.1016/j.jinteco.2018.09.010
+                Format: text/html
+                Function: Full text (open access)
             -   URL: /static/pdf/import_spillovers/JIE-S-17-00329-OA.pdf
                 Format: application/pdf
                 Function: Online Appendix
-        note: Forthcoming in the *Journal of International Economics*.
+            -   URL: https://zenodo.org/record/1434685
+                Format: text/html
+                Function: Replication code and data
+        citation:
+            journal: Journal of International Economics
+            year: 2018
+            volume: 115
+            number: November
+            pages: "242-258"
+            identifier:
+                type: DOI
+                id: 10.1016/j.jinteco.2018.09.010
+                url: https://doi.org/10.1016/j.jinteco.2018.09.010
     -   id: bb_reply
         title: "A Balls-and-Bins Model of Trade: Reply"
         author: "Roc Armenter and Miklós Koren"
