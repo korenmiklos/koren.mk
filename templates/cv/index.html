@@ -13,7 +13,7 @@
 <h1>Current positions</h1>
 	{% for item in POSITIONS %}
 	{% if item.to_date.get_data()=="" %}
-		<p><strong>{{item.institution}}</strong>{% if not item.department.get_data()=="" %}, {{item.department}}{% endif %}, {{item.title}}. {{item.from_date|monthyear}}-</p>
+		<p><strong>{{item.institution}}</strong>{% if not item.department.get_data()=="" %}, {{item.department}}{% endif %}, {{item.title}}. {{item.from_date|monthyear}} &mdash;</p>
 		{% endif %}
 	{% endfor %}
 	{% for item in [ CV.personal_information, CV.research_and_teaching_interests]%}
@@ -40,11 +40,17 @@
 		{% endfor %}
 	</ol>
 {% endfor %}
+<h1>Past positions</h1>
+	{% for item in POSITIONS %}
+	{% if not item.to_date.get_data()=="" %}
+		<p><strong>{{item.institution}}</strong>{% if not item.department.get_data()=="" %}, {{item.department}}{% endif %}, {{item.title}}. {{item.from_date|monthyear}} &mdash;{{item.to_date|monthyear}}</p>
+		{% endif %}
+	{% endfor %}
 
-	{% for lst in [CV.teaching_experience, CV.research_experience, CV.honors_scholarships_and_Fellowships, CV.conference_organization]%}
+	{% for lst in [CV.teaching_experience, CV.honors_scholarships_and_Fellowships, CV.conference_organization]%}
 	<h1>{{lst.get_verbose_name()}}</h1>
 		{% for item in lst %}
-		<p>{{item.get_data()}}</p>
+		<p>{{item.get_data()|rst}}</p>
 		{% endfor %}
 	{% endfor %}
 
