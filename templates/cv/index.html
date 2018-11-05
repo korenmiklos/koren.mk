@@ -10,8 +10,8 @@
 	<h1>{{item.get_verbose_name()}}</h1>
 	<p>{{item.get_data()}}</p>
 	{% endfor %}
-	<h1>{{CV.current_positions.get_verbose_name()}}</h1>
-	{% for item in CV.current_positions %}
+<h1>Current positions</h1>
+	{% for item in positions %}
 	{{item|rst}}
 	{% endfor %}
 	{% for item in [ CV.personal_information, CV.research_and_teaching_interests]%}
