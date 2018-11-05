@@ -12,7 +12,13 @@
 	{% endfor %}
 <h1>Current positions</h1>
 	{% for item in POSITIONS %}
-	{{item.institution}}
+	{% if item.to_date.get_data()=="" %}
+		<p><strong>{{item.institution}}</strong>
+	{% if not item.department.get_data()=="" %}
+		, {{item.department}}
+	{% endif %}.
+		</p>>
+		{% endif %}
 	{% endfor %}
 	{% for item in [ CV.personal_information, CV.research_and_teaching_interests]%}
 	<h1>{{item.get_verbose_name()}}</h1>
