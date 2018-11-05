@@ -13,11 +13,7 @@
 <h1>Current positions</h1>
 	{% for item in POSITIONS %}
 	{% if item.to_date.get_data()=="" %}
-		<p><strong>{{item.institution}}</strong>
-	{% if not item.department.get_data()=="" %}
-		, {{item.department}}
-	{% endif %}.
-		</p>>
+		<p><strong>{{item.institution}}</strong>{% if not item.department.get_data()=="" %}, {{item.department}}{% endif %}, {{item.title}}. {{item.from_date|monthyear}}-</p>
 		{% endif %}
 	{% endfor %}
 	{% for item in [ CV.personal_information, CV.research_and_teaching_interests]%}
