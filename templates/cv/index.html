@@ -11,7 +11,7 @@
 	<p>{{item.get_data()}}</p>
 	{% endfor %}
 <h1>Current positions</h1>
-	{% for item in positions %}
+	{% for item in POSITIONS %}
 	{{item.institution}}
 	{% endfor %}
 	{% for item in [ CV.personal_information, CV.research_and_teaching_interests]%}
