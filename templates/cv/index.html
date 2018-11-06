@@ -6,7 +6,7 @@
 <section>
   <div class="left-half">
 	{% for item in [CV.office_contact_information]%}
-	<h2>{{item.get_verbose_name()}}</h2>
+	<p>{{item.get_verbose_name()}}</p>
   </div>
   <div class="right-half">
 	<p>{{item.get_data()}}</p>
@@ -16,7 +16,7 @@
 
 <section>
   <div class="left-half">
-<h2>Current positions</h2>
+<p>Current positions</p>
   </div>
   <div class="right-half">
 	{% for item in POSITIONS %}
@@ -26,10 +26,11 @@
 	{% endfor %}
   </div>
 </section>
+
 	{% for item in [ CV.personal_information, CV.research_and_teaching_interests]%}
 <section>
   <div class="left-half">
-	<h2>{{item.get_verbose_name()}}</h2>
+	<p>{{item.get_verbose_name()}}</p>
   </div>
   <div class="right-half">
 	<p>{{item.get_data()}}</p>
@@ -39,7 +40,7 @@
 
 <section>
   <div class="left-half">
-<h2>Education</h2>
+<p>Education</p>
   </div>
   <div class="right-half">
 	{% for item in CV.education %}
@@ -54,7 +55,7 @@
 {% for series in PAPERS %}
 <section>
   <div class="left-half">
-	<h2>{{series.get_verbose_name()}}</h2>
+	<p>{{series.get_verbose_name()}}</p>
   </div>
   <div class="right-half">
 		{% for item in series %}
@@ -72,7 +73,7 @@
 
 <section>
   <div class="left-half">
-<h2>Past positions</h2>
+<p>Past positions</p>
   </div>
   <div class="right-half">
 	{% for item in POSITIONS %}
@@ -86,7 +87,7 @@
 	{% for lst in [CV.teaching_experience, CV.honors_scholarships_and_Fellowships, CV.conference_organization]%}
 <section>
   <div class="left-half">
-	<h2>{{lst.get_verbose_name()}}</h2>
+	<p>{{lst.get_verbose_name()}}</p>
   </div>
   <div class="right-half">
 		{% for item in lst %}
@@ -98,7 +99,7 @@
 
 <section>
   <div class="left-half">
-<h2>Recent Conference and Seminar Presentations</h2>
+<p>Recent Conference and Seminar Presentations</p>
   </div>
   <div class="right-half">
 {% for year in ['2018', '2017', '2016', ] %}
@@ -112,7 +113,7 @@
 	{% for lst in [CV.grants, CV.professional_service]%}
 <section>
   <div class="left-half">
-	<h2>{{lst.get_verbose_name()}}</h2>
+	<p>{{lst.get_verbose_name()}}</p>
   </div>
   <div class="right-half">
 		{% for item in lst %}
@@ -125,7 +126,7 @@
 	{% for lst in [CV.referee]%}
 <section>
   <div class="left-half">
-	<h2>{{lst.get_verbose_name()}}</h2>
+	<p>{{lst.get_verbose_name()}}</p>
   </div>
   <div class="right-half">
 		<p>{% for item in lst %}
