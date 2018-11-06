@@ -7,7 +7,20 @@
 {% block content %}
 <section class="container" id="home">
   <div class="left-half">
-  </div>
+  	<article>
+		{% if citation %}
+		{% set item = current_page %}
+		<p>Please cite as</p>
+		<p>{% include "base_templates/citation.html" %} <a href="../{{id}}.bib">bib</a></p>
+		{% endif %}
+		{% if resources %}
+			<p>Resources</p>
+				{% for tlk in resources %}
+					<p><a href="{{tlk.url}}">{{tlk.function}}</a></p>
+				{%endfor%}
+		{% endif %}
+  </article>
+</div>
   <div class="right-half">
 		<article>	<h2>{{title}}</h2>
 	{% if author %}
@@ -27,17 +40,6 @@
 	{{note|rst}}
 	</p>
 	{% endif %}
-{% if citation %}
-{% set item = current_page %}
-<p>Please cite as</p>
-<p>{% include "base_templates/citation.html" %} <a href="../{{id}}.bib">bib</a></p>
-{% endif %}
-{% if resources %}
-	<p>Resources</p>
-		{% for tlk in resources %}
-			<p><a href="{{tlk.url}}">{{tlk.function}}</a></p>
-		{%endfor%}
-{% endif %}
 
 	</article>
 	</div>
