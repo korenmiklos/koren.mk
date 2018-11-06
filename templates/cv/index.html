@@ -1,19 +1,22 @@
 {% extends "base_templates/base.html" %}
 {% block title %}Curriculum Vitae{% endblock %}
 {% block content %}
-	<header>
 		<h1 class="title">Miklós Koren</h1>
-	</header>
-<article>
 		<p id="hidden-link"><a href="javascript:window.print()">printable version</a></p>
+<section>
+  <div class="left-half">
 	{% for item in [CV.office_contact_information]%}
 	<h1>{{item.get_verbose_name()}}</h1>
+  </div>
+  <div class="right-half">
 	<p>{{item.get_data()}}</p>
 	{% endfor %}
+  </div>
+<article>
 <h1>Current positions</h1>
 	{% for item in POSITIONS %}
 	{% if item.to_date.get_data()=="" %}
-		<p>{{item.title}}, <i>{{item.institution}}</i>{% if not item.department.get_data()=="" %}, {{item.department}}{% endif %}. {{item.from_date|monthyear}} &mdash;</p>
+		<p>{{item.title}}, <i>{{item.institution}}</i>{% if not item.department.get_data()=="" %}, {{item.department}}{% endif %}. {{item.from_date|monthyear}}&mdash;</p>
 		{% endif %}
 	{% endfor %}
 	{% for item in [ CV.personal_information, CV.research_and_teaching_interests]%}
