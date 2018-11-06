@@ -5,11 +5,13 @@
 		<p id="hidden-link"><a href="javascript:window.print()">printable version</a></p>
 <section>
   <div class="left-half">
-	{% for item in [CV.office_contact_information]%}
-	<p>{{item.get_verbose_name()}}</p>
+	{% for lst in [CV.office_contact_information]%}
+	<p>{{lst.get_verbose_name()}}</p>
   </div>
   <div class="right-half">
+  	{% for item in lst %}
 	<p>{{item.get_data()}}</p>
+	{% endfor %}
 	{% endfor %}
   </div>
 </section>
