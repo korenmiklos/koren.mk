@@ -6,16 +6,17 @@
 <section>
   <div class="left-half">
 	{% for item in [CV.office_contact_information]%}
-	<h1>{{item.get_verbose_name()}}</h1>
+	<h2>{{item.get_verbose_name()}}</h2>
   </div>
   <div class="right-half">
 	<p>{{item.get_data()}}</p>
 	{% endfor %}
   </div>
 </section>
+
 <section>
   <div class="left-half">
-<h1>Current positions</h1>
+<h2>Current positions</h2>
   </div>
   <div class="right-half">
 	{% for item in POSITIONS %}
@@ -26,19 +27,37 @@
   </div>
 </section>
 	{% for item in [ CV.personal_information, CV.research_and_teaching_interests]%}
-	<h1>{{item.get_verbose_name()}}</h1>
+<section>
+  <div class="left-half">
+	<h2>{{item.get_verbose_name()}}</h2>
+  </div>
+  <div class="right-half">
 	<p>{{item.get_data()}}</p>
 	{% endfor %}
-<h1>Education</h1>
+  </div>
+</section>
+
+<section>
+  <div class="left-half">
+<h2>Education</h2>
+  </div>
+  <div class="right-half">
 	{% for item in CV.education %}
 		<p>
-			<strong>{{item.school}}</strong>. {{item.from}}-{{item.to}}.
+			<i>{{item.school}}</i>. {{item.from}}-{{item.to}}.
 			{{item.degree}}
 		</p>
 	{% endfor %}
+  </div>
+</section>
+
 {% for series in PAPERS %}
-	<h1>{{series.get_verbose_name()}}</h1>
-	<ol>
+<section>
+  <div class="left-half">
+	<h2>{{series.get_verbose_name()}}</h2>
+  </div>
+  <div class="right-half">
+	<ul>
 		{% for item in series %}
 			<li>{% if "citation" in item %}
 				{% include "base_templates/citation.html" %}
@@ -47,8 +66,12 @@
 				{% endif %}
 			</li>
 		{% endfor %}
-	</ol>
+	</ul>
+  </div>
+</section>
 {% endfor %}
+
+
 <h1>Past positions</h1>
 	{% for item in POSITIONS %}
 	{% if not item.to_date.get_data()=="" %}
