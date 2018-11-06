@@ -9,9 +9,10 @@
 	<p>{{lst.get_verbose_name()}}</p>
   </div>
   <div class="right-half">
-  	{% for item in lst %}
-	<p>{{item.get_data()}}</p>
+  	<p>{% for item in lst %}
+	{{item.get_data()}}<br/>
 	{% endfor %}
+    </p>
 	{% endfor %}
   </div>
 </section>
