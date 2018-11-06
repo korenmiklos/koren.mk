@@ -1,66 +1,212 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<link rel="stylesheet" href="../../../static/css/print.css" type="text/css" media="print" />
-	<link rel="stylesheet" type="text/css" href="../../../static/css/style.css" media="screen">
-	<!--<link rel="stylesheet/less" type="text/css" href="http://miklos.koren.hu/static/css/style.less">-->
-	<!--<script src="/theme/js/less.js" type="text/javascript"></script>-->
-	<link rel="stylesheet" type="text/css" href="../../../static/css/pygments.css">
-	<link rel="stylesheet" href="../../../static/css/font-awesome.min.css">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:800,400,300|Inconsolata' rel='stylesheet' type='text/css'>
+<!-- saved from url=(0028)http://jaroslawmorawski.com/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="shortcut icon" href="http://jaroslawmorawski.com/favicon.png">
 
-	
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 	
 		<title>A minimálbér költségvetési hatásai</title>
 		<meta charset="utf-8" />
 	
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"/>
+
+<style>
+
+
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+html, body, section, div {
+}
+
+body { 
+  font-family: 'Muli', sans-serif;
+  color: black;
+  background-color: white;
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing: 0.0125em;
+  text-align: left;
+  padding-top: 5rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 5rem;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: black;
+}
+
+.container {
+  display: table;
+  width: 100%;
+  height: auto;
+}
+
+div {
+  display: table-cell;
+  text-align: left;
+  width: 50%;
+  padding-top: 2rem;;
+  padding-bottom: 2rem;
+}
+
+btn {
+  display: table;
+  padding-top: 2rem;;
+  padding-bottom: 2rem;
+}
+
+sup { 
+    vertical-align: super;
+    font-size: 0.7em;
+    padding-left: 0.1em;
+}
+
+a img {
+width: 0px;
+height: auto;
+border-width: 2px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px dotted gray;
+    transition: color 0.1s linear;
+    -webkit-transition: color 0.1s linear;
+    -moz-transition: color 0.1s linear;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #F3B69A;
+    border-bottom-color: #F3B69A;
+}
+
+a:active {
+    color: black;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+
+li:before {
+  content: "→";
+  padding-right: 8px;
+  vertical-align: 0%;
+  margin-left: -27px;
+}
+
+fav {
+  vertical-align: -1%;
+}
+
+fav2 {
+  vertical-align: 0%;
+}
+
+@media only screen and (max-width: 800px) {
+    
+body { 
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.0125em;
+  text-align: left;
+  padding-top: 0rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: black;
+}
+
+.container {
+  display: table;
+  width: 100%;
+  height: auto;
+}
+
+div {
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding-top: 0.2rem;;
+  padding-bottom: 0.2rem;
+}
+
+btn {
+  display: table;
+  padding-top: 1.3rem;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+
+li:before {
+  content: "➡️";
+  size: 1rem;
+  padding-right: 6px;
+  vertical-align: 0%;
+  margin-left: 0px;
+}
+
+sup { 
+    vertical-align: super;
+    font-size: 0.7em;
+    padding-left: 0.1em;
+}
+
+.left-half {
+  font-weight: 600;
+  line-height: 1.5;
+  padding-top: 1.3rem;
+}
+
+.right-half {
+  padding-bottom: 1.3rem;
+}
+
+
+</style></head>
+
+
+
 </head>
 <body>
-	<section id="sidebar">
-		<figure id="user_logo">
-            <a href="../../.."><div class="logo"><img src="http://gravatar.com/avatar/0e505fdcee0e19d7188c7bd60128065c?s=100" /></div></a>
-		</figure>
-
-		<div class="user_meta">
-            <h1 id="user"><a href="../../.." class="">Miklós Koren</a></h1>
-			<ul>
-				
-					<li><a href="http://miklos.koren.hu/papers/working_papers">working papers</a></li>
-				
-					<li><a href="http://miklos.koren.hu/papers/peer_reviewed_publications">publications</a></li>
-				
-					<li><a href="http://miklos.koren.hu/papers/other_publications">policy</a></li>
-				
-				
-					<li><a href="http://koren.hu/teaching/">teaching</a></li>
-				
-					<li><a href="http://miklos.koren.hu/media/">media</a></li>
-				
-					<li><a href="http://miklos.koren.hu/cv/">cv</a></li>
-				
-			</ul>
-			
-				<ul class="social">
-					<li class="social"><a class="button_accent" href="http://twitter.com/korenmiklos"><i class="icon-twitter"></i></a></li>
-				<li class="social"><a class="button_accent" href="http://scholar.google.hu/citations?user=fFTegXUAAAAJ"><i class="icon-google-plus"></i></a></li>
-				<li class="social"><a class="button_accent" href="http://github.com/korenmiklos"><i class="icon-github"></i></a></li>
-				
-			</ul>
-			
-		</div>
-		<footer>
-			<address>
-				Generated with <a href="https://github.com/korenmiklos/oak">Oak</a>,
-		                theme by <a href="https://github.com/wting/pelican-svbtle">wting</a>.
-			</address>
-		</footer>
-	</section>
-
-	<section id="posts">
 	
-<article>
-	<h1>A minimálbér költségvetési hatásai</h2>
+<section class="container" id="home">
+  <div class="left-half">
+  	<article>
+		
+  </article>
+</div>
+  <div class="right-half">
+		<article>	<h2>A minimálbér költségvetési hatásai</h2>
 	
 		<h3>Halpern László, Koren Miklós, Kőrösi Gábor és Vincze János</h3>
 	
@@ -69,16 +215,16 @@
 	
 	
 	
+		
+		
+		<p>Please cite as</p>
+		<p>Halpern László, Koren Miklós, Kőrösi Gábor és Vincze János, 2004. “A minimálbér költségvetési hatásai.” <em>Közgazdasági Szemle</em>. 51(4), pp. 325-345. <a href="../minimalber.bib">bib</a></p>
+		
 
-
-<h4>Please cite as</h4>
-<p>Halpern László, Koren Miklós, Kőrösi Gábor és Vincze János, 2004. “A minimálbér költségvetési hatásai.” <em>Közgazdasági Szemle</em>. 51(4), pp. 325-345. <a href="../minimalber.bib">bib</a></p>
-
-
-</article>
-
-
+	</article>
+	</div>
 	</section>
+
 
 
 <script type="text/javascript">
