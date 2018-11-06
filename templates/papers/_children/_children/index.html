@@ -4,9 +4,9 @@
 
 
 {% block content %}
-	<h3>{{title}}</h3>
+	<h2>{{title}}</h2>
 	{% if author %}
-		<h2>{{author}}</h2>
+		<h3>{{author}}</h3>
 	{% endif %}
 	{% if date %}
 		<p class="date">{{date|monthyear}}</p>
@@ -29,11 +29,9 @@
 {% endif %}
 {% if resources %}
 	<p>Resources</p>
-	<ol>
 		{% for tlk in resources %}
-			<li><a href="{{tlk.url}}">{{tlk.function}}</a></li>
+			<p><a href="{{tlk.url}}">{{tlk.function}}</a></p>
 		{%endfor%}
-	</ol>
 {% endif %}
 
 {% endblock %}
