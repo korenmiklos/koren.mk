@@ -1,6 +1,2 @@
-- url: "http://koren.hu/teaching/"
-  name: teaching
-- url: "http://miklos.koren.hu/media/"
-  name: media
 - url: "http://miklos.koren.hu/cv/"
   name: cv

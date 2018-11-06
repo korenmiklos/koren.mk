@@ -3,8 +3,8 @@
 {% block title %}{{title}}{% endblock %}
 
 {% block content %}
-	<h1 class="title">Research focus</h1>
-	<h2>I am interested in how technology changes who succeeds in the marketplace.</h2>
+	<h1>Research focus</h1>
+	<p>I am interested in how technology changes who succeeds in the marketplace.</p>
 	{% for series in current_page.papers %}
 			<h1><a href="{{series.get_relative_url(current_page)}}">Recent {{series.get_verbose_name()|lower}} (more...)</a></h1>
 	<dl><ol>
