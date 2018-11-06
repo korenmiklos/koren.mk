@@ -12,6 +12,7 @@
 	<p>{{item.get_data()}}</p>
 	{% endfor %}
   </div>
+</section>
 <section>
   <div class="left-half">
 <h1>Current positions</h1>
@@ -23,7 +24,7 @@
 		{% endif %}
 	{% endfor %}
   </div>
-<section>
+</section>
 	{% for item in [ CV.personal_information, CV.research_and_teaching_interests]%}
 	<h1>{{item.get_verbose_name()}}</h1>
 	<p>{{item.get_data()}}</p>
