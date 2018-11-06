@@ -2,6 +2,20 @@
 
 {% block title %}{{title}}{% endblock %}
 
+{% block sidebar %}
+	<h1 id="user"><a href="{{ site_root.get_relative_url(current_page) }}" class="">{{ META.AUTHOR }}</a></h1>
+		{% for item in META.MENUITEMS %}
+			<p><a href="{{ item.url }}">{{ item.name }}</a></p>
+		{% endfor %}
+		{% for link in LINKS %}
+			<p><a href="{{ link.url }}">{{ link.name }}</a></p>
+		{% endfor %}
+	{% if SOCIAL %}
+			{% for service in SOCIAL %}<p class="social"><a class="button_accent" href="{{service.url}}"><i class="{{service.icon}}"></i></a></p>
+		{% endfor %}
+	{% endif %}
+{% endblock %}
+
 {% block content %}
 	<h1>Research focus</h1>
 	<p>I am interested in how technology changes who succeeds in the marketplace.</p>
