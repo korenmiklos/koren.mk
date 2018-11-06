@@ -12,13 +12,18 @@
 	<p>{{item.get_data()}}</p>
 	{% endfor %}
   </div>
-<article>
+<section>
+  <div class="left-half">
 <h1>Current positions</h1>
+  </div>
+  <div class="right-half">
 	{% for item in POSITIONS %}
 	{% if item.to_date.get_data()=="" %}
 		<p>{{item.title}}, <i>{{item.institution}}</i>{% if not item.department.get_data()=="" %}, {{item.department}}{% endif %}. {{item.from_date|monthyear}}&mdash;</p>
 		{% endif %}
 	{% endfor %}
+  </div>
+<section>
 	{% for item in [ CV.personal_information, CV.research_and_teaching_interests]%}
 	<h1>{{item.get_verbose_name()}}</h1>
 	<p>{{item.get_data()}}</p>
