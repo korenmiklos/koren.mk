@@ -2,8 +2,7 @@
 {% if "citation" in item %}
 	{% include "base_templates/citation.html" %}</a>
 {% else %}
-	{{item.title}}</a>.
-{{item.date|monthyear}}. 
+	{{item.title}}</a>. 
 {% if "note" in item %}{{item.note|rst}}{% endif %}
 {% endif %}
 </p>

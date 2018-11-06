@@ -12,9 +12,7 @@
 {% for item in current_page %}
 <section class="container" id="home">
   <div class="left-half">
-		<article>
-{% include "base_templates/list_item.html" %}
-		</article>
+		<article><p>{{item.date|monthyear}}</p></article>
   </div>
   <div class="right-half">
 	<article>
