@@ -1,8 +1,6 @@
-	<li>
-		<p><a href="{{item.get_relative_url(current_page)}}">{{item.title}}</a>.
-		{{item.date|monthyear}}. 
-		{% if "note" in item %}{{item.note|rst}}{% endif %}
-		{% if "citation" in item %}
-			{% include "base_templates/citation.html" %}{% endif %}
-		</p>
-</li>
+<p><a href="{{item.get_relative_url(current_page)}}">{{item.title}}</a>.
+{{item.date|monthyear}}. 
+{% if "note" in item %}{{item.note|rst}}{% endif %}
+{% if "citation" in item %}
+	{% include "base_templates/citation.html" %}{% endif %}
+</p>

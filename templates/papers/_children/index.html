@@ -4,11 +4,9 @@
 
 {% block content %}
 		<h1 class="title">{{current_page.get_verbose_name()}}</h1>
-		<ol>
 		{% for item in current_page %}
 		{% include "base_templates/list_item.html" %}
 		{% endfor %}
-	</ol>
 {% endblock %}
 
 {% block option_papers %}class="active"{% endblock %}
