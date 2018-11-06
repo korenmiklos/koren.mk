@@ -3,8 +3,11 @@
 {% block title %}{{title}}{% endblock %}
 
 
+
 {% block content %}
-	<h2>{{title}}</h2>
+<section class="container" id="home">
+  <div class="left-half">
+		<article>	<h2>{{title}}</h2>
 	{% if author %}
 		<h3>{{author}}</h3>
 	{% endif %}
@@ -34,6 +37,9 @@
 		{%endfor%}
 {% endif %}
 
+	</article>
+	</div>
+	</section>
 {% endblock %}
 
 
