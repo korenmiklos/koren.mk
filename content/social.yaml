@@ -1,12 +1,12 @@
 twitter: 
     name: korenmiklos
     url: "http://twitter.com/korenmiklos"
-    icon: fa-twitter
+    icon: fab fa-twitter
 google_scholar:
     name: fFTegXUAAAAJ
     url: "http://scholar.google.hu/citations?user=fFTegXUAAAAJ" 
-    icon: fa-graduation-cap
+    icon: fas fa-graduation-cap
 github:
     url: "http://github.com/korenmiklos"
     name: korenmiklos
-    icon: fa-github
+    icon: fab fa-github

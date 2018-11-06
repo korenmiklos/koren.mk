@@ -213,7 +213,7 @@ sup {
 					<p><a href="{{ link.url }}">{{ link.name }}</a></p>
 				{% endfor %}
 			{% if SOCIAL %}
-					{% for service in SOCIAL %}<p class="social"><a class="button_accent" href="{{service.url}}"><i class="fab {{service.icon}}"></i></a></p>
+					{% for service in SOCIAL %}<p class="social"><a class="button_accent" href="{{service.url}}"><i class="{{service.icon}}"></i></a></p>
 				{% endfor %}
 			{% endif %}
 		</article>
