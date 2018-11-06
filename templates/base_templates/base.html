@@ -10,6 +10,8 @@
 	{% endblock head %}
 
 <style>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"/>
+
 
 @import url('https://fonts.googleapis.com/css?family=Muli');
 
@@ -204,19 +206,15 @@ sup {
 
 		<article>
             <h1 id="user"><a href="{{ site_root.get_relative_url(current_page) }}" class="">{{ META.AUTHOR }}</a></h1>
-			<ul>
 				{% for item in META.MENUITEMS %}
-					<li><a href="{{ item.url }}">{{ item.name }}</a></li>
+					<p><a href="{{ item.url }}">{{ item.name }}</a></p>
 				{% endfor %}
 				{% for link in LINKS %}
-					<li><a href="{{ link.url }}">{{ link.name }}</a></li>
+					<p><a href="{{ link.url }}">{{ link.name }}</a></p>
 				{% endfor %}
-			</ul>
 			{% if SOCIAL %}
-				<ul class="social">
-					{% for service in SOCIAL %}<li class="social"><a class="button_accent" href="{{service.url}}"><i class="{{service.icon}}"></i></a></li>
+					{% for service in SOCIAL %}<p class="social"><a class="button_accent" href="{{service.url}}"><i class="fab {{service.icon}}"></i></a></p>
 				{% endfor %}
-			</ul>
 			{% endif %}
 		</article>
   </div>
