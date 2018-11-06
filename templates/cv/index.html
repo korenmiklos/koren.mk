@@ -104,12 +104,12 @@
 {% for year in ['2018', '2017', '2016', ] %}
 <h3>{{year}}</h3>
 <p>{% for item in TALKS %}{% if item.date.get_data()[:4]==year %}
-{% if item.event %}{{item.event}}{% else %}{{item.organizer}}{% endif %}. {% endif %}{% endfor %}</p>
+{% if not item.event.get_data()=="" %}{{item.event}}{% else %}{{item.organizer}}{% endif %}. {% endif %}{% endfor %}</p>
 {% endfor %}
   </div>
 </section>
 
-	{% for lst in [CV.grants, CV.professional_service, CV.referee]%}
+	{% for lst in [CV.grants, CV.professional_service]%}
 <section>
   <div class="left-half">
 	<h2>{{lst.get_verbose_name()}}</h2>
@@ -122,5 +122,17 @@
 </section>
 	{% endfor %}
 
+	{% for lst in [CV.referee]%}
+<section>
+  <div class="left-half">
+	<h2>{{lst.get_verbose_name()}}</h2>
+  </div>
+  <div class="right-half">
+		<p>{% for item in lst %}
+		{{item.get_data()}},  
+		{% endfor %}</p>
+  </div>
+</section>
+	{% endfor %}
 
 {% endblock %}
