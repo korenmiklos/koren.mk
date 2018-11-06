@@ -196,13 +196,13 @@ sup {
 
 </head>
 <body>
-<section class="container">
+<section class="container" id="home">
   <div class="left-half">
 		<figure id="user_logo">
             <a href="{{ site_root.get_relative_url(current_page) }}"><div class="logo"><img src="http://gravatar.com/avatar/0e505fdcee0e19d7188c7bd60128065c?s=100" /></div></a>
 		</figure>
 
-		<div class="user_meta">
+		<article>
             <h1 id="user"><a href="{{ site_root.get_relative_url(current_page) }}" class="">{{ META.AUTHOR }}</a></h1>
 			<ul>
 				{% for item in META.MENUITEMS %}
@@ -218,14 +218,16 @@ sup {
 				{% endfor %}
 			</ul>
 			{% endif %}
-		</div>
+		</article>
   </div>
   <div class="right-half">
 
-	<article id="posts">
+	<article>
 	{% block content %}
 	{% endblock %}
 	</article>
+	</div>
+	</section>
 {% if "google_analytics" in META %}
 {% set google_analytics = META.google_analytics %}
 {% include "base_templates/google_analytics.html" %}
