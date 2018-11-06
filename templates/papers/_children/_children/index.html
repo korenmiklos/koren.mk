@@ -4,16 +4,15 @@
 
 
 {% block content %}
-<article>
-	<h1>{{title}}</h2>
+	<h3>{{title}}</h3>
 	{% if author %}
-		<h3>{{author}}</h3>
+		<h2>{{author}}</h2>
 	{% endif %}
 	{% if date %}
 		<p class="date">{{date|monthyear}}</p>
 	{% endif %}
 	{% if abstract %}
-	<h4>Abstract</h4>
+	<p>Abstract</p>
 	<p>
 	{{abstract|rst}}
 	</p>
@@ -25,20 +24,17 @@
 	{% endif %}
 {% if citation %}
 {% set item = current_page %}
-<h4>Please cite as</h4>
+<p>Please cite as</p>
 <p>{% include "base_templates/citation.html" %} <a href="../{{id}}.bib">bib</a></p>
 {% endif %}
 {% if resources %}
-<div id="article_meta">
-	<h2>Resources</h2>
+	<p>Resources</p>
 	<ol>
 		{% for tlk in resources %}
 			<li><a href="{{tlk.url}}">{{tlk.function}}</a></li>
 		{%endfor%}
 	</ol>
-</div>
 {% endif %}
-</article>
 
 {% endblock %}
 
