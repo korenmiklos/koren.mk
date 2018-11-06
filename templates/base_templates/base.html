@@ -198,21 +198,8 @@ sup {
 
 </head>
 <body>
-<section class="container" id="home">
-  <div class="left-half">
-		<article>
-    {% block sidebar %}
-    {% endblock %}
-		</article>
-  </div>
-  <div class="right-half">
-
-	<article>
 	{% block content %}
 	{% endblock %}
-	</article>
-	</div>
-	</section>
 {% if "google_analytics" in META %}
 {% set google_analytics = META.google_analytics %}
 {% include "base_templates/google_analytics.html" %}

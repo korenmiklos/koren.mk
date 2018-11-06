@@ -3,10 +3,28 @@
 {% block title %}{{current_page.get_verbose_name()}}{% endblock %}
 
 {% block content %}
+<section class="container" id="home">
+  <div class="right-half">
+	<article>
 		<h1 class="title">{{current_page.get_verbose_name()}}</h1>
-		{% for item in current_page %}
-		{% include "base_templates/list_item.html" %}
-		{% endfor %}
+	</article>
+</dov>
+{% for item in current_page %}
+<section class="container" id="home">
+  <div class="left-half">
+		<article>
+{% include "base_templates/list_item.html" %}
+		</article>
+  </div>
+  <div class="right-half">
+	<article>
+{% include "base_templates/list_item.html" %}
+	</article>
+	</div>
+	</section>
+{% endfor %}
+
+
 {% endblock %}
 
 {% block option_papers %}class="active"{% endblock %}
