@@ -1,0 +1,42 @@
+{% extends "base_templates/base.html" %}
+{% block title %}Current and past students{% endblock %}
+{% block content %}
+<h1>Current and past students</h1>
+
+<section>
+  <div class="left-half">
+	<article><p>Doctoral</p></article>
+  </div>
+  <div class="right-half">
+  	<article>
+  		{% for year in ['', '2018',  '2017', '2016', '2014', '2013', '2012', '2011', '2010', '2009'] %}
+  		<p>
+  			{% if year=="" %}current{% else %}{{year}}{% endif %}  			
+  		</p>
+  		<P>{% for student in STUDENTS if student.reference.get_data()==year and student.level.get_data()=="PhD" %}
+ 			{% if not student.url.get_data()=="" %}<a href="{{student.url}}">{% endif %} 			
+  			{{student.name}}{% if student.on_job_market.get_data()=="yes" %} (on the job market){% endif %}</a>. 
+  		{% endfor %}</P>
+  		{% endfor %}
+  	</article>
+</section>
+
+<section>
+  <div class="left-half">
+	<article><p>Masters</p></article>
+  </div>
+  <div class="right-half">
+  	<article>
+  		{% for year in ['2016','2015', '2014', '2013', '2012', '2011', '2010', '2009'] %}
+  		<p>
+  			{% if year=="" %}current{% else %}{{year}}{% endif %}  			
+  		</p>
+  		<P>{% for student in STUDENTS if student.reference.get_data()==year and student.level.get_data()=="Masters" %}
+ 			{% if not student.url.get_data()=="" %}<a href="{{student.url}}">{% endif %} 			
+  			{{student.name}}{% if student.on_job_market.get_data()=="yes" %} (on the job market){% endif %}</a>. 
+  		{% endfor %}</P>
+  		{% endfor %}
+  	</article>
+</section>
+
+{% endblock %}
