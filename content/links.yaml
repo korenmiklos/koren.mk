@@ -1,6 +1,6 @@
-- url: "http://miklos.koren.hu/students/"
+- url: "/students/"
   name: students
-- url: "http://miklos.koren.hu/cv/"
+- url: "/cv/"
   name: cv
 - url: "https://m2.mtmt.hu/api/publication?sort=publishedYear%2CDESC&sort=firstAuthor%2CASC&cond=published%3Beq%3Btrue&cond=core%3Beq%3Btrue&cond=authors.mtid%3Beq%3B10015123&cite_type=2&size=5000&page=1&labelLang=eng"
   name: mtmt
