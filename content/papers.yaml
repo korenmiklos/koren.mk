@@ -1,26 +1,4 @@
 Working papers:
-    -   id: diversification_through_trade
-        title: Diversification through Trade
-        author: "Francesco Caselli, Miklós Koren, Milan Lisicky and Silvana Tenreyro"
-        date: 2019-06-20
-        abstract: >
-            A widely held view is that openness to international trade leads to higher income volatility, as trade increases specialization and hence exposure to
-            sector-specific shocks. Contrary to this common wisdom, we argue that when
-            country-wide shocks are important, openness to international trade can lower
-            income volatility by reducing exposure to domestic shocks, and allowing
-            countries to diversify the sources of demand and supply across countries.
-            Using a quantitative model of trade, we assess the importance of the two
-            mechanisms (sectoral specialization and cross-country diversification) and
-            show that in recent decades international trade has reduced economic
-            volatility for most countries.
-        resources:
-            -   URL: /static/pdf/diversification-through-trade.pdf
-                Format: application/pdf
-                Function: Full text
-            -   URL: http://www.voxeu.org/article/macro-diversification-through-trade
-                Format: text/html
-                Function: Column on VoxEU
-        note: Under revision for the *Quarterly Journal of Economics*.
     -   id: machines_and_machinists
         author: "Miklós Koren, Márton Csillag and János Köllő"
         Title: >
@@ -81,6 +59,28 @@ Working papers:
             Format: application/pdf
             function: First draft
 Peer-reviewed publications:
+    -   id: diversification_through_trade
+        title: Diversification through Trade
+        author: "Francesco Caselli, Miklós Koren, Milan Lisicky and Silvana Tenreyro"
+        date: 2019-06-20
+        abstract: >
+            A widely held view is that openness to international trade leads to higher income volatility, as trade increases specialization and hence exposure to
+            sector-specific shocks. Contrary to this common wisdom, we argue that when
+            country-wide shocks are important, openness to international trade can lower
+            income volatility by reducing exposure to domestic shocks, and allowing
+            countries to diversify the sources of demand and supply across countries.
+            Using a quantitative model of trade, we assess the importance of the two
+            mechanisms (sectoral specialization and cross-country diversification) and
+            show that in recent decades international trade has reduced economic
+            volatility for most countries.
+        resources:
+            -   URL: /static/pdf/diversification-through-trade.pdf
+                Format: application/pdf
+                Function: Full text
+            -   URL: http://www.voxeu.org/article/macro-diversification-through-trade
+                Format: text/html
+                Function: Column on VoxEU
+        note: Forthcoming in the *Quarterly Journal of Economics*.
     -   id: import_spillovers
         title: Learning to Import from Your Peers
         author: "Márta Bisztray, Miklós Koren and Adam Szeidl"
@@ -142,6 +142,10 @@ Peer-reviewed publications:
         Abstract: >
             We estimate a model of importers in Hungarian micro data and conduct counterfactual policy analysis to investigate the effect of imported inputs on productivity. We find that importing all input varieties used in production would increase a firm's revenue productivity by 22 percent, about half of which is due to imperfect substitution between foreign and domestic inputs. Foreign firms use imports more effectively and pay lower fixed import costs. Our estimates imply that during 1993-2002, a quarter of the productivity growth in Hungary was due to imported inputs. Simulations show that the productivity gain from a tariff cut is larger when the economy has many importers and many foreign firms, implying policy complementarities between tariff cuts, dismantling non-tariff barriers, and FDI liberalization.
         Date: 2015-12-01
+        impact:
+        -   impact_factor: 3.83
+        -   google_scholar: 520
+        -   web_of_science: 73
         citation:
             journal: American Economic Review
             year: 2015
@@ -173,6 +177,10 @@ Peer-reviewed publications:
         Abstract: >
             We build a model of administrative barriers to trade to understand how they affect trade volumes, shipping decisions and welfare. Because administrative costs are incurred with every shipment, exporters have to decide how to break up total trade into individual shipments. Consumers value frequent shipments, because they enable them to consume close to their preferred dates. Hence per-shipment costs create a welfare loss. We derive a gravity equation in our model and show that administrative costs can be expressed as bilateral ad-valorem trade costs. We estimate the ad-valorem equivalent in Spanish shipment-level export data and find it to be large. A 50 percent reduction in per-shipment costs is equivalent to a 9 percentage point reduction in tariffs. Our model and estimates help explain why policy makers emphasize trade facilitation and why trade within customs unions is larger than trade within free trade areas.
         Date: 2015-01-07
+        impact:
+        -   impact_factor: 2.02
+        -   google_scholar: 63
+        -   web_of_science: 12
         resources:
             -   URL: /static/pdf/administrative_barriers_to_trade.pdf
                 Format: application/pdf
@@ -203,7 +211,10 @@ Peer-reviewed publications:
             -   URL: http://onlinelibrary.wiley.com/doi/10.1111/jeea.12108/abstract
                 Format: text/html
                 Function: Link to publisher website
-        impact_factor: 2.05
+        impact:
+        -   impact_factor: 2.05
+        -   google_scholar: 62
+        -   web_of_science: 5
         citation:
             journal: Journal of the European Economic Association
             year: 2015
@@ -240,13 +251,20 @@ Peer-reviewed publications:
             -   type: DOI
                 id: 10.1162/REST_a_00468
                 url: http://dx.doi.org/10.1162/REST_a_00468
-        impact_factor: 2.35
+        impact:
+        -   impact_factor: 2.35
+        -   google_scholar: 49
+        -   web_of_science: 12
     -   id: balls_and_bins
         author: Roc Armenter and Miklós Koren
         Title: A Balls-and-Bins Model of Trade
         Abstract: >
             Many of the facts about the extensive margin of trade---which firms export, and how many products sent to how many destinations---are consistent with a surprisingly large class of trade models because of the sparse nature of trade data. We propose a statistical model to account for sparsity, formalizing the assignment of trade shipments to country, product and firm categories as balls falling into bins. The balls-and-bins model quantitatively reproduces the pattern of zero product- and firm-level trade flows across export destinations, and the frequency of multi-product, multi-destination exporters. In contrast, balls-and-bins overpredicts the fraction of exporting firms.
         Date: 2013-10-15
+        impact:
+        -   impact_factor: 2.79
+        -   google_scholar: 101
+        -   web_of_science: 24
         resources:
             -   URL: http://miklos.koren.hu/static/pdf/balls_and_bins/manuscript.pdf
                 Format: application/pdf
@@ -263,7 +281,6 @@ Peer-reviewed publications:
             -   URL: /papers/peer_reviewed_publications/bb_reply/
                 Format: text/html
                 Function: Our reply to Blum, Claro and Horstmann (2015)
-        impact_factor: 2.79
         citation:
             journal: American Economic Review
             year: 2014
@@ -300,7 +317,10 @@ Peer-reviewed publications:
             -   URL: http://goo.gl/TkX3W
                 Format: text/html
                 Function: Replication data on github
-        impact_factor: 2.79
+        impact:
+        -   impact_factor: 2.79
+        -   google_scholar: 103
+        -   web_of_science: 27
     -   id: pricing_to_firm
         Author: László Halpern and Miklós Koren
         Title: "Pricing to Firm: An Analysis of Firm- and Product-Level Import Prices"
@@ -322,7 +342,10 @@ Peer-reviewed publications:
                 Format: text/html
                 Function: Full text (open access)
         Date: 2007-08-01
-        impact_factor: 0.71
+        impact:
+        -   impact_factor: 0.71
+        -   google_scholar: 25
+        -   web_of_science: 6
     -   id: volatility_and_development
         Author: Miklós Koren and Silvana Tenreyro
         Title: Volatility and Development
@@ -356,7 +379,10 @@ Peer-reviewed publications:
         -   URL: http://dx.doi.org/10.5281/zenodo.1465437
             Format: text/html
             Function: Replication data and code
-        impact_factor: 5.28
+        impact:
+        -   impact_factor: 5.28
+        -   google_scholar: 604
+        -   web_of_science: 161
     -   id: employment
         Author: Miklós Koren
         Title: "Employment Response to Real Exchange Rate Movements: Evidence from Hungarian Exporting Firms"
