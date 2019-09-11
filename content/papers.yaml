@@ -80,7 +80,12 @@ Peer-reviewed publications:
             -   URL: http://www.voxeu.org/article/macro-diversification-through-trade
                 Format: text/html
                 Function: Column on VoxEU
-        note: Forthcoming in the *Quarterly Journal of Economics*.
+        citation:
+            journal: Quarterly Journal of Economics
+            year: 2020
+            volume: 135
+            number: 1
+            pages: ""
     -   id: import_spillovers
         title: Learning to Import from Your Peers
         author: "Márta Bisztray, Miklós Koren and Adam Szeidl"
