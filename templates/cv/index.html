@@ -65,7 +65,7 @@
 		<p>{% if "citation" in item %}
 			{% include "base_templates/citation.html" %}
 			{% else %}
-			{{item.author}}, {{item.date.get_data().split('-')[0]}}. “{{item.title}}.” {% if "note" in item %}{{item.note|rst}}{% endif %} 
+			{{item.author | author}}, {{item.date.get_data().split('-')[0]}}. “{{item.title}}.” {% if "note" in item %}{{item.note}}{% endif %} 
 			{% endif %}
 		</p>
 		{% endfor %}
