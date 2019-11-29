@@ -1,1 +1,1 @@
-{{item.author}}, {{item.citation.year}}. “{{item.title}}.” <em>{{item.citation.journal}}</em>. {{item.citation.volume}}{% if item.citation.number %}({{item.citation.number}}){% endif %}{% if item.citation.pages %}, pp. {{item.citation.pages}}{% endif %}.
+{{item.author | author}}, {{item.citation.year}}. “{{item.title}}.” <em>{{item.citation.journal}}</em>. {{item.citation.volume}}{% if item.citation.number %}({{item.citation.number}}){% endif %}{% if item.citation.pages %}, pp. {{item.citation.pages}}{% endif %}.
