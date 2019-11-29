@@ -3,6 +3,6 @@
 	{% include "base_templates/citation.html" %}</a>
 {% else %}
 	{{item.title}}</a>. 
-{% if "note" in item %}{{item.note|rst}}{% endif %}
+{% if "note" in item %}{{item.note}}{% endif %}
 {% endif %}
 </p>

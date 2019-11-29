@@ -1,7 +1,7 @@
 {% if "citation" in current_page %}
 @article{ {{id}},
     title="{{title}}",
-    author="{{author}}",
+    author="{{author | author}}",
     year={{citation.year}},
     journal="{{citation.journal}}",
     volume={{citation.volume}},
