@@ -62,7 +62,7 @@ Peer-reviewed publications:
     -   id: diversification_through_trade
         title: Diversification through Trade
         author: "Francesco Caselli, Miklós Koren, Milan Lisicky and Silvana Tenreyro"
-        date: 2019-06-20
+        date: 2020-02-01
         abstract: >
             A widely held view is that openness to international trade leads to higher income volatility, as trade increases specialization and hence exposure to
             sector-specific shocks. Contrary to this common wisdom, we argue that when
@@ -80,12 +80,19 @@ Peer-reviewed publications:
             -   URL: http://www.voxeu.org/article/macro-diversification-through-trade
                 Format: text/html
                 Function: Column on VoxEU
+            -   URL: https://doi.org/10.1093/qje/qjz028
+                Format: text/html
+                Function: Publisher's website
         citation:
             journal: Quarterly Journal of Economics
             year: 2020
             volume: 135
             number: 1
-            pages: ""
+            pages: "449-502"
+            identifier:
+                type: DOI
+                id: 10.1093/qje/qjz028
+                url: https://doi.org/10.1093/qje/qjz028
     -   id: import_spillovers
         title: Learning to Import from Your Peers
         author: "Márta Bisztray, Miklós Koren and Adam Szeidl"
