@@ -1,10 +1,30 @@
 Working papers:
+    -   id: social-distancing
+        author: "Miklós Koren and Rita Pető"
+        Title: Production distruptions from social distancing
+        Abstract: >
+            Social distancing interventions can be effective against epidemics, but may disrupt production in business that rely heavily on face-to-face communication. We develop a model of communication and production to study the effects of a policy that limits face-to-face interactions. This policy disrupts businesses with strong division of labor (and hence high need for communication) and those that are located in urban centers with high population density. We measure the prevalence of communication-related tasks and the urban density of workers for each detailed industry in the U.S. We predict that schools, grocery stores, and banks will suffer the biggest disruptions in response to the 2019-20 coronavirus pandemic. Overall, 22.9 million people work in the ten most affected industries.
+        Date: 2020-03-22
+        resources:
+        -   URL: /static/pdf/social-distancing.pdf
+            Format: application/pdf
+            Function: Full text
+        -   URL: https://github.com/ceumicrodata/social-distancing/raw/master/data/derived/industry-index.csv
+            Format: text/csv
+            Function: Social distancing exposure by sector
+        -   URL: https://github.com/ceumicrodata/social-distancing/raw/master/data/derived/location-index.csv
+            Format: text/csv
+            Function: Social distancing exposure by ZIP-code
+        -   URL: https://github.com/ceumicrodata/social-distancing
+            Format: text/html
+            Function: Replication code and data
     -   id: machines_and_machinists
         author: "Miklós Koren, Márton Csillag and János Köllő"
         Title: >
-            Machines and machinists: Importing skill-biased technology
-        Abstract: "Which workers gain and which workers lose from technical change? We study the wage effects of new, imported machinery in Hungary between 1988 and 2004 through the lens of a model. In our model, new machines are faster and more reliable than old ones. Both characteristics complement worker skill: better workers will be assigned to new machines, where their productivity and wage will increase. We confirm these model predictions in a case study and in a representative sample of Hungarian manufacturing machine operators. Workers assigned to imported machines earn about 5 percent more than similar workers at similar firms. The returns to formal education and unobserved skills are higher on imported machines. The increased availability of imported machinery due to trade liberalization is responsible for about 40 percent of the increase in wage inequality in our sample. Our results suggest that imported machines can help propagate skill-biased technical change."
-        Date: 2019-04-20
+                Machines and Machinists: Incremental technical change and wage inequality
+        Abstract: >
+            How does incremental improvement in the quality of capital contribute to widening wage inequality? We study the wage effects of imported machinery in Hungary between 1988 and 2004 through the lens of a model. In our model, imported machines are faster and more reliable than old ones. Both characteristics complement worker skill: (i) better workers will be assigned to imported machines, where (ii) their productivity and wage will increase and (iii) their wages will become more unequal. We confirm these predictions in the data. Our estimates imply that about half of the increase in wage inequality among machine operators can be attributed to the increased availability of imported machines. The policy implications of our mechanism are different from the conventional view that certain skills will become obsolete with new technologies.
+        Date: 2020-02-29
         resources:
         -   URL: /static/pdf/machines.pdf
             Format: application/pdf
