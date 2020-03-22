@@ -564,27 +564,23 @@ Publications in Hungarian:
             pages: "325-345"
             year: 2004
 Work in progress:
+    -   id: work
+        author: Miklós Koren
+        date: 2020-03-01
+        title: The Past, Present, and Future of Work
+    -   id: alignment
+        author: Miklós Koren
+        date: 2020-03-01
+        title: Why Do Some Firms Export So Much More Than Others?
+    -   id: poaching
+        author: Miklós Koren and Balázs Reizer
+        date: 2020-03-01
+        title: Customer Poaching and Business Stealing
+    -   id: expat
+        author: Miklós Koren and Álmos Telegdy
+        date: 2020-03-01
+        title: Expatriate Managers and Firm Performance
     -   id: political_connections
         author: "Miklós Koren, Ádám Szeidl, Ferenc Szűcs and Balázs Vedres"
         title: Efficiciency Losses from Misallocating Government Contracts
         date: 2017-06-01
-    -   id: supplier_agglomeration
-        title: The Economic Geography of Supply Chains
-        author: "Gábor Békés, Miklós Koren, Balázs Muraközy and Álmos Telegdy"
-        date: 2017-01-19
-    -   id: transit_trade
-        author: "Roc Armenter, Miklós Koren and Dávid Krisztián Nagy"
-        title: Transit Trade and Economic Geography
-        date: 2014-09-08
-    -   id: gender
-        author: "Beata Smarzynska Javorcik, Miklós Koren and Álmos Telegdy"
-        title: Gender Bias Among Hungarian Managers
-        date: 2014-09-01
-    -   id: rails
-        author: Miklós Koren and Bálint Menyhért
-        date: 2015-09-01
-        title: "Ideas on the Rails: Railway Rollout and Human Capital Transfer in the Austro-Hungarian Monarchy"
-    -   id: job2job
-        author: János Köllő and Koren Miklós
-        title: Does Experience at Multinationals Pay? Evidence from Job-to-Job Transitions
-        date: 2015-09-01
