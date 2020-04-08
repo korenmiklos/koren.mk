@@ -5,11 +5,19 @@ Working papers:
         Abstract: >
             Social distancing interventions can be effective against epidemics but are potentially detrimental for the economy. Businesses that rely heavily on face-to-face communication or close physical proximity when producing a product or providing a service are particularly vulnerable. There is, however, no systematic evidence about the role of human interactions across different lines of business and about which will be the most limited by social distancing. Here we provide theory-based measures of the reliance of U.S. businesses on human interaction, detailed by industry and geographic location. We find that 49 million workers work in occupations that rely heavily on face-to-face communication or require close physical proximity to other workers. Our model suggests that when businesses are forced to reduce worker contacts by half, they need a 12 percent wage subsidy to compensate for the disruption in communication. Retail, hotels and restaurants, arts and entertainment and schools are the most affected sectors. Our results can help target fiscal assistance to businesses that are most disrupted by social distancing.
         Date: 2020-03-28
-        note: Accepted for publication in Covid Economics, a peer-reviewed preprint publication of the Centre for Economic Policy Research.
+        citation:
+            journal: Covid Economics
+            year: 2020
+            volume: 1
+            number: 2
+            pages: "13-31"
         resources:
         -   URL: https://arxiv.org/pdf/2003.13983
             Format: application/pdf
             Function: Full text on arXiv.org
+        -   URL: https://cepr.org/sites/default/files/news/CovidEconomics2.pdf
+            Format: application/pdf
+            Function: Issue 2 of Covid Economics
         -   URL: https://github.com/ceumicrodata/social-distancing/raw/master/data/derived/industry-index.csv
             Format: text/csv
             Function: Social distancing exposure by sector
