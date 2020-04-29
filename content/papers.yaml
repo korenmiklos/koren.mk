@@ -18,6 +18,9 @@ Working papers:
         -   URL: https://cepr.org/sites/default/files/news/CovidEconomics2.pdf
             Format: application/pdf
             Function: Issue 2 of Covid Economics
+        -   URL: https://voxeu.org/article/it-s-retail-stores-and-restaurants-not-farms-and-fisheries-suffer-most-social-distancing
+            Format: text/html
+            Function: VoxEU column
         -   URL: https://github.com/ceumicrodata/social-distancing/raw/master/data/derived/industry-index.csv
             Format: text/csv
             Function: Social distancing exposure by sector
