@@ -115,6 +115,9 @@ Peer-reviewed publications:
             -   URL: https://doi.org/10.1093/qje/qjz028
                 Format: text/html
                 Function: Publisher's website
+            -   URL: https://github.com/korenmiklos/Diversification-Through-Trade-Replication/tree/v1.1
+                Format: text/html
+                Function: Replication code and data
         citation:
             journal: Quarterly Journal of Economics
             year: 2020
@@ -538,6 +541,18 @@ Other publications:
             "Volatility, diversification and development in the Gulf Cooperation Council countries."
             In David Held and Kristian Ulrichsen (eds), *The Transformation of the Gulf: Politics, Economics and the Global Order*, Chapter 9, Routledge.
 Publications in Hungarian:
+    -   id: tavmunka_tukor
+        author: "Pető Rita és Koren Miklós"
+        title: Mely iparágakban és régiókban van lehetőség hosszú távon is távmunkára?
+        date: 2021-12-20
+        abstract: 
+        citation:
+            year: 2021
+            journal: Munkaerőpiaci Tükör
+            volume: 2021
+            number: December
+            pages: "158-168"
+            month: December
     -   id: firm_network_survey
         author: "Kondor Péter, Koren Miklós, Pál Jenő és Szeidl Ádám"
         title: Cégek kapcsolati hálózatainak gazdasági szerepe
