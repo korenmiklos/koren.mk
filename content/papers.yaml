@@ -456,6 +456,33 @@ Peer-reviewed publications:
             Format: text/html
             Function: Full text (open access)
 Other publications:
+    -   id: citations
+        author: Bőgel György, Koren Miklós és Mátyás László
+        title: Fürdővízzel a gyereket?
+        date: 2022-12-07
+        abstract: ""
+        resources:
+            -   URL: https://doi.org/10.1556/2065.183.2022.12.7
+                format: text/html
+                function: Teljes cikk
+        citation:
+            year: 2022
+            journal: Magyar Tudomány
+            volume: 183
+            number: 12
+            pages: "1595-1600"
+            month: December
+    -   id: tavmunka_tukor
+        author: "Pető Rita és Koren Miklós"
+        title: Mely iparágakban és régiókban van lehetőség hosszú távon is távmunkára?
+        date: 2021-12-20
+        abstract: 
+        citation:
+            year: 2021
+            journal: Munkaerőpiaci Tükör
+            volume: 2021
+            number: December
+            pages: "158-168"
     -   id: coeure_book
         author: Cecília Hornok and Miklós Koren
         title: "Winners and Losers of Globalization: Sixteen Challenges for Measurement and Theory"
@@ -482,7 +509,24 @@ Other publications:
             -   URL: https://www.dropbox.com/s/x2yefhltcwpmrmb/hornok-koren.pdf?dl=1
                 Format: application/pdf
                 Function: Full text
-    -   id: munkaeropiaci_tukor
+    -   id: firm_network_survey
+        author: "Kondor Péter, Koren Miklós, Pál Jenő és Szeidl Ádám"
+        title: Cégek kapcsolati hálózatainak gazdasági szerepe
+        date: 2014-11-13
+        abstract: >
+            A közgazdaságtanban általában a cégekre olyan szereplőkként gondolunk, amelyek csak anonim piaci mechanizmuson keresztül érintkeznek egymással. Ezzel szemben a valóságban a cégek életében fontos szerepet játszanak a gazdaság más, konkrét szereplőivel meglévő kapcsolataik. Tanulmányunkban a vállalati hálózatok közgazdaságtanának elméleti és empirikus irodalmát összegezzük. Az áttekintett művek szerint a vállalati kapcsolatok hálózati jellege pozitív és negatív hatást egyaránt gyakorol a gazdaság egészére. A mikroszintű adatok újszerű vizsgálataiból pedig gazdag kép bontakozik ki a vállalatok viselkedéséről, például a technológiai fejlődés, a hitelezés, az ellátási láncok vagy akár a korrupció szempontjából.
+        resources:
+            -   URL: http://www.kszemle.hu/tartalom/letoltes.php?id=1516
+                format: application/pdf
+                function: Teljes cikk
+        citation:
+            year: 2014
+            journal: Közgazdasági Szemle
+            volume: LXI
+            number: November
+            pages: "1341-1360"
+            month: November
+    -   id: munkaeropiaci_tukor2013
         author: Miklós Koren and Péter Tóth
         title: The impact of international trade on employment and wages
         note: >
@@ -493,6 +537,16 @@ Other publications:
             -   URL: http://econ.core.hu/file/download/HLM2013/TheHungarianLabourMarket_2013_InFocusII.pdf
                 Format: application/pdf
                 Function: Full text
+    -   id: munkaeropiaci_tukor2012
+        author: Koren Miklós és Tóth Péter
+        title: A külkereskedelem hatása a vállalati munkaerőre és a bérek alakulására
+        note: >
+            In: Fazekas K, Benczúr P, Telegdy Á (szerk.) Munkerőpiaci Tükör, 2012. pp. 249-274.
+        date: 2012-08-01
+        resources:
+            -   URL: http://econ.core.hu/file/download/mt_2012_hun/kozel2.pdf
+                Format: application/pdf
+                Function: Tanulmány
     -   id: EFIGE
         author: "Gábor Békés, László Halpern, Miklós Koren and Balázs Muraközy"
         Title: "Still standing: how European firms weathered the crisis - The third EFIGE policy report"
@@ -540,61 +594,6 @@ Other publications:
             Koren, Miklós and Silvana Tenreyro. 2011.
             "Volatility, diversification and development in the Gulf Cooperation Council countries."
             In David Held and Kristian Ulrichsen (eds), *The Transformation of the Gulf: Politics, Economics and the Global Order*, Chapter 9, Routledge.
-Publications in Hungarian:
-    -   id: tavmunka_tukor
-        author: "Pető Rita és Koren Miklós"
-        title: Mely iparágakban és régiókban van lehetőség hosszú távon is távmunkára?
-        date: 2021-12-20
-        abstract: 
-        citation:
-            year: 2021
-            journal: Munkaerőpiaci Tükör
-            volume: 2021
-            number: December
-            pages: "158-168"
-    -   id: citations
-        author: Bőgel György, Koren Miklós és Mátyás László
-        title: Fürdővízzel a gyereket?
-        date: 2022-12-07
-        abstract: ""
-        resources:
-            -   URL: https://doi.org/10.1556/2065.183.2022.12.7
-                format: text/html
-                function: Teljes cikk
-        citation:
-            year: 2022
-            journal: Magyar Tudomány
-            volume: 183
-            number: 12
-            pages: "1595-1600"
-            month: December
-    -   id: firm_network_survey
-        author: "Kondor Péter, Koren Miklós, Pál Jenő és Szeidl Ádám"
-        title: Cégek kapcsolati hálózatainak gazdasági szerepe
-        date: 2014-11-13
-        abstract: >
-            A közgazdaságtanban általában a cégekre olyan szereplőkként gondolunk, amelyek csak anonim piaci mechanizmuson keresztül érintkeznek egymással. Ezzel szemben a valóságban a cégek életében fontos szerepet játszanak a gazdaság más, konkrét szereplőivel meglévő kapcsolataik. Tanulmányunkban a vállalati hálózatok közgazdaságtanának elméleti és empirikus irodalmát összegezzük. Az áttekintett művek szerint a vállalati kapcsolatok hálózati jellege pozitív és negatív hatást egyaránt gyakorol a gazdaság egészére. A mikroszintű adatok újszerű vizsgálataiból pedig gazdag kép bontakozik ki a vállalatok viselkedéséről, például a technológiai fejlődés, a hitelezés, az ellátási láncok vagy akár a korrupció szempontjából.
-        resources:
-            -   URL: http://www.kszemle.hu/tartalom/letoltes.php?id=1516
-                format: application/pdf
-                function: Teljes cikk
-        citation:
-            year: 2014
-            journal: Közgazdasági Szemle
-            volume: LXI
-            number: November
-            pages: "1341-1360"
-            month: November
-    -   id: munkaeropiaci_tukor
-        author: Koren Miklós és Tóth Péter
-        title: A külkereskedelem hatása a vállalati munkaerőre és a bérek alakulására
-        note: >
-            In: Fazekas K, Benczúr P, Telegdy Á (szerk.) Munkerőpiaci Tükör, 2012. pp. 249-274.
-        date: 2012-08-01
-        resources:
-            -   URL: http://econ.core.hu/file/download/mt_2012_hun/kozel2.pdf
-                Format: application/pdf
-                Function: Tanulmány
     -   id: minimalber
         author: "Halpern László, Koren Miklós, Kőrösi Gábor és Vincze János"
         title: A minimálbér költségvetési hatásai
