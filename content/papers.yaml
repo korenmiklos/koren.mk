@@ -506,6 +506,22 @@ Other publications:
             "Volatility, diversification and development in the Gulf Cooperation Council countries."
             In David Held and Kristian Ulrichsen (eds), *The Transformation of the Gulf: Politics, Economics and the Global Order*, Chapter 9, Routledge.
 Publications in Hungarian:
+    -   id: citations
+        author: Bőgel György, Koren Miklós és Mátyás László
+        title: Fürdővízzel a gyereket?
+        date: 2022-12-07
+        abstract: ""
+        resources:
+            -   URL: https://doi.org/10.1556/2065.183.2022.12.7
+                format: text/html
+                function: Teljes cikk
+        citation:
+            year: 2022
+            journal: Magyar Tudomány
+            volume: 183
+            number: 12
+            pages: "1595-1600"
+            month: December
     -   id: firm_network_survey
         author: "Kondor Péter, Koren Miklós, Pál Jenő és Szeidl Ádám"
         title: Cégek kapcsolati hálózatainak gazdasági szerepe
