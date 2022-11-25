@@ -440,7 +440,7 @@ Peer-reviewed publications:
         -   URL: http://resources.cefig.eu/papers/voldev_appendix.pdf
             Format: application/pdf
             Function: Appendix
-        -   URL: http://dx.doi.org/10.5281/zenodo.1465437
+        -   URL: https://github.com/korenmiklos/Volatility-and-Development-replication/tree/v1.0
             Format: text/html
             Function: Replication data and code
         impact:
