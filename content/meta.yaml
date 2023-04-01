@@ -12,5 +12,5 @@ menuitems:
       url: /papers/working_papers
     - name: publications
       url: /papers/peer_reviewed_publications
-    - name: policy
+    - name: other
       url: /papers/other_publications
