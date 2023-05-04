@@ -87,7 +87,7 @@
   </div>
 </section>
 
-	{% for lst in [CV.teaching_experience, CV.honors_scholarships_and_Fellowships, CV.conference_organization]%}
+	{% for lst in [CV.teaching_experience, CV.honors_scholarships_and_Fellowships]%}
 <section>
   <div class="left-half">
 	<p>{{lst.get_verbose_name()}}</p>
@@ -99,19 +99,6 @@
   </div>
 </section>
 	{% endfor %}
-
-<section>
-  <div class="left-half">
-<p>Recent Conference and Seminar Presentations</p>
-  </div>
-  <div class="right-half">
-{% for year in ['2018', '2017', '2016', ] %}
-<h3>{{year}}</h3>
-<p>{% for item in TALKS %}{% if item.date.get_data()[:4]==year %}
-{% if not item.event.get_data()=="" %}{{item.event}}{% else %}{{item.organizer}}{% endif %}. {% endif %}{% endfor %}</p>
-{% endfor %}
-  </div>
-</section>
 
 	{% for lst in [CV.grants, CV.professional_service]%}
 <section>
