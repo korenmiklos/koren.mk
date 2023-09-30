@@ -1,4 +1,21 @@
 Working papers:
+    -   id: gravity-vs-ml
+        title: "Can Neural Network Models Beat Gravity for Predicting Flows?"
+        author: "György Ruzicska, Ramzi Chariag, Olivér Kiss, and Miklós Koren"
+        date: 2021-10-08
+        abstract: ""
+    -   id: expat
+        title: "Expatriate Managers: Effects on Firm Performance"
+        author: Miklós Koren and Álmos Telegdy
+        date: 2023-10-09
+        abstract: >
+            Using a novel dataset based on exhaustive administrative data from Hungary on firms and their managers for 1985--2018, we study the impact of expatriate Chief Executive Officers (CEOs) on firm outcomes. To reduce the bias arising in the selection process of hiring new CEOs, we use foreign acquisitions replacing the incumbent CEO with a local manager as a comparison group. Relative to firms that hire local managers, expatriate CEO hiring took place in firms that are smaller and have less intangible assets, but are more export oriented. Expatriate CEOs increase tangible assets by 9 and intangibles by 11 percent, export orientation by 6 percentage points and TFP by 5 percent relative to firms that hired a local manager, suggesting that they are better managers than locals.
+    -   id: goos
+        date: 2023-09-30
+        title: "The Geography of Production and Sourcing in the Weightless Economy: Evidence from Open-Source Software"
+        author: "Gábor Békés, Julian Hinz, Miklós Koren and Aaron Lohmann"
+        abstract: >
+            Trade costs, broadly defined, limit interaction between far-away economic agents and motivate them to concentrate in close proximity to one another. The gravity equation, which assigns a large role for geographic distance as a determinant of trade costs, has been remarkably successful in explaining patterns of international and international goods trade between firms, services trade, individual mobility and migration, and even scientific collaboration. It is unclear, however, why distance is relevant for sectors in which direct trade costs are zero. We study patterns of interaction when the good in question is ``weightless'' using data from the open-source software industry.  We find that importing other software packages as dependencies is at most weakly correlated with distance. By contrast, collaboration between different developers on the same piece of software is strongly decaying with distance. These results suggest that geography continues to matter for goods and services where collaboration is frequent and deep.
     -   id: babyboom
         author: "Miklós Koren and Krisztina Orbán"
         Title: >
@@ -640,24 +657,3 @@ Other publications:
             Koren, Miklós and Silvana Tenreyro. 2011.
             "Volatility, diversification and development in the Gulf Cooperation Council countries."
             In David Held and Kristian Ulrichsen (eds), *The Transformation of the Gulf: Politics, Economics and the Global Order*, Chapter 9, Routledge.
-Work in progress:
-    -   id: managers
-        author: Miklós Koren and Krisztina Orbán
-        title: Firms and Managers
-        date: 2020-10-16
-    -   id: genius_loci
-        author: Attila Gáspár, Miklós Koren and Rita Pető
-        title: "Genius Loci: Entrepreneurship after the Hungarian Holocaust"
-        date: 2020-09-16
-    -   id: poaching
-        author: Miklós Koren and Balázs Reizer
-        date: 2020-03-01
-        title: Customer Poaching and Business Stealing
-    -   id: expat
-        author: Miklós Koren and Álmos Telegdy
-        date: 2020-03-01
-        title: Expatriate Managers and Firm Performance
-    -   id: political_connections
-        author: "Miklós Koren, Ádám Szeidl, Ferenc Szűcs and Balázs Vedres"
-        title: Efficiciency Losses from Misallocating Government Contracts
-        date: 2017-06-01
