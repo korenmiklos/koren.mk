@@ -11,7 +11,7 @@ Working papers:
             Format: application/pdf
             Function: Full text
     -   id: gravity-vs-ml
-        title: "Can Neural Network Models Beat Gravity for Predicting Flows?"
+        title: "Can Machine Learning Beat Gravity for Predicting Flows?"
         author: "György Ruzicska, Ramzi Chariag, Olivér Kiss, and Miklós Koren"
         date: 2023-10-08
         abstract: ""
@@ -510,6 +510,21 @@ Peer-reviewed publications:
             Format: text/html
             Function: Full text (open access)
 Other publications:
+    -   id: eventbaseline
+        author: Koren, Miklós
+        title: eventbaseline - Correct Event Study After xthdidregress
+        date: 2024-01-23
+        abstract: > 
+            eventbaseline is a Stata package that transforms the coefficients estimated by xthdidregress into
+            a correct event study relative to a baseline. The reported coefficients
+            are the average treatment effects on the treated (ATT) for each per tive
+            to the baseline. The baseline can be either a period before the treatment
+            or the average of the pre-treatment periods.
+        note: Install with 'ssc install eventbaseline'
+        resources:
+        -   URL: https://github.com/codedthinking/eventbaseline
+            Format: text/html
+            Function: Stata package
     -   id: dcas
         author: Koren, Miklós, Connolly, Marie, Lull, Joan, and Vilhuber, Lars 
         title: Data and Code Availability Standard
